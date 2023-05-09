@@ -1,0 +1,776 @@
+---
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+The first code chunk contains variables that needs to be defined before 
+running the code. 
+```{r variables, include=FALSE}
+library(tidyverse)
+library(data.table)
+library(scales)
+
+### define variables ----------------------------------------------------------
+# register(bpstart(SnowParam(2, progressbar = TRUE)))
+
+# get working directory
+wd <- dirname(getwd())
+
+# set path to desired dataset
+path <- paste0(wd, "/data/pathogen/")
+
+
+# network file
+net_df <- read.csv(paste0(path, "results/net_df.csv"))
+
+# results file
+results_top <- read.csv(paste0(path, "results/GPNAE_results_top.csv"))
+
+# ids file containing ALL GPNAE Annotations
+ids_fl <- paste0(
+  path,  "ids.csv"
+)
+
+ids <- read.csv(ids_fl)[, 1:7]
+
+colnames(ids) <- c(
+  "Row", "m.z", "RT",
+  "Annotation.ID", "formula",
+  "adduct", "evidence"
+)
+
+# get all manual GPNAE species that will be used as seed node set (SNS)
+gpnae <- ids[grepl("GPNAE", ids$Annotation.ID),]$Row
+
+
+
+sirius_fl <- paste0(path, "SiriusComplete.csv")
+```
+## General Parameters and Statistics
+
+Here is an overview about GPNAE network annotations by each layer: 
+
+```{r eval, message=FALSE, warning=FALSE}
+# no and type of seeds
+length(gpnae)
+gpnae
+```
+Next, we get an overview about the number of annotations that have been 
+made with the algorithm.
+
+```{r, include=FALSE}
+## No of annotations
+df_a <- table(results_top$network_layer) %>%
+  as.data.frame()
+
+df_a <- rbind(
+  df_a,
+  data.frame(Var1 = "total", Freq = sum(df_a$Freq))
+)
+
+colnames(df_a) <- c("layer", "n")
+
+df_a$perc <- paste(
+  round(100 * df_a$n / df_a[df_a$layer == "total", "n"],
+    digits = 1
+  ),
+  "%"
+)
+
+df_a$layer <- factor(df_a$layer,
+  levels = c(
+    "total",
+    "3_layers",
+    "2_layers_gnps_mass",
+    "2_layers_gnps_homol",
+    "2_layers_mass_homol",
+    "1_layer_gnps",
+    "1_layer_mass"
+  )
+)
+```
+
+```{r}
+# png(paste0(paste0(seeds_fold, "GPNAE_NoOfAnnotations.png")),
+#     width = 800, height = 400, res = 100)
+
+ggplot(data = df_a, aes(x = layer, y = n)) +
+  geom_bar(stat = "identity", width = 0.7, fill = "#69005f") +
+  geom_text(aes(label = perc), vjust = -0.3, size = 3) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+# dev.off()
+
+
+# overview of number of network annotations:
+table(results_top$network_layer)
+```
+
+## Validation using SIRIUS
+The SIRIUS file is loaded  all its molecular formula are used and 
+matched against all molecular formula that have been determined by the
+network propagation algorithm.
+If there is any match, the entry will be "yes", if there is none it will
+be "no". If there is no molecular formula available, either in 
+SIRIUS nor in the annotated species, the entry will be "NA". 
+```{r, include=FALSE}
+sirius <- read.csv(sirius_fl)
+
+sirius <- select(sirius, Row, SIRIUS_molecularFormula)
+
+sirius[sirius == ""] <- NA
+
+results_top <- merge(results_top, sirius, by = "Row")
+
+
+results_top$siriusMatch <- ifelse(sapply(
+  lapply(results_top$network_formula, grepl,
+    x = strsplit(results_top$SIRIUS_molecularFormula, split = "|", fixed = T)
+  ),
+  any
+), "yes", "no")
+
+results_top$siriusMatch <- ifelse(is.na(results_top$SIRIUS_molecularFormula), 
+                                  NA, results_top$siriusMatch)
+
+
+df_s <- table(results_top[, c("siriusMatch", "network_layer")],
+  useNA = "always"
+) %>% as.data.frame()
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "no", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "no", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "yes", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "yes", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = NA, network_layer = "total",
+  Freq = sum(df_s[is.na(df_s$siriusMatch), ]$Freq, na.rm = T)
+))
+
+
+df_s <- group_by(df_s, network_layer) %>% 
+  mutate(perc = paste0((round(Freq / sum(Freq) * 100, 1)), " %"))
+
+df_s <- df_s[!is.na(as.vector(df_s$network_layer)), ]
+
+df_s$network_layer <- factor(df_s$network_layer,
+  levels = c(
+    "total", "3_layers", "2_layers_gnps_mass", "2_layers_gnps_homol",
+    "2_layers_mass_homol", "1_layer_gnps", "1_layer_mass"
+  )
+)
+
+
+# # save the results file with the SIRIUS results 
+# write_csv(results_top,
+#   file = paste0(seeds_fold, "sirius_results_top.csv")
+# )
+
+```
+The first plot shows all matches including NA's, whereas the second plot 
+removed the NA's, in order to better evaluate the matching annotations. 
+The second plot provides the information of the percentage of features that 
+have a matching and a miss-matching molecular formula (number of NA are not
+considered.)
+
+```{r sirius eval}
+ggplot(data = df_s, aes(x = network_layer, y = Freq, fill = siriusMatch)) +
+  geom_bar(stat = "identity", width = 0.7, position = "stack") +
+  geom_text(aes(label = perc), position = position_stack(vjust = 0.5), size = 3.2) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_fill_manual(values = c("#69005f", "#ff506e", "black")) +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+
+ggplot(data = df_s[!is.na(df_s$siriusMatch), ] %>% group_by(network_layer) %>% 
+  mutate(perc = paste0((round(Freq / sum(Freq) * 100, 1)), " %")), 
+  aes(x = network_layer, y = Freq, fill = siriusMatch)) +
+  geom_bar(stat = "identity", width = 0.7, position = "stack") +
+  geom_text(aes(label = perc), position = position_stack(vjust = 0.5), size = 3.2) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_fill_manual(values = c("#69005f", "#ff506e", "black")) +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+```
+
+## Mass difference evaluation of annotated features
+
+In this section we compare the observed mass-differences of 
+1) the first neighbors of the gpnae seed nodes
+2) between the seeds and the features that have been annotated
+3) between the seeds and the features that not have been annotated
+4) between the seeds and the features that have been annotated, but don't have
+an spectral similarity edge
+
+In order to get an overview of the appearance of mass-differences that are
+more frequently used for the annotation of GPNAE's. 
+
+```{r massdiff calc, include=FALSE}
+
+## mass difference of first neighbors
+tab_firstNeighbors <- table(net_df[net_df$from %in% gpnae |
+  net_df$to %in% gpnae, ]$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+
+
+
+## get mass difference of annotated nodes
+Annotated <- results_top[!is.na(results_top$network_annotation), ]$Row
+
+## keep only edges with mass-differences
+networkOfInterest <-
+  net_df[((net_df$from %in% gpnae & net_df$to %in% Annotated |
+    net_df$from %in% Annotated & net_df$to %in% gpnae) &
+    !is.na(net_df$group_mass)), ]
+
+
+tab_Annotated <- table(networkOfInterest$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+
+
+# no of mass difference annotations:
+length(results_top[(!is.na(results_top$network_annotation) &
+  results_top$network_layer == "1_layer_mass"), ]$Row)
+
+## non annotated edges
+NonAnnotated <- results_top[is.na(results_top$network_annotation), ]$Row
+
+if (length(NonAnnotated) != 0) {
+  networkOfInterest <-
+  net_df[((net_df$from %in% gpnae & net_df$to %in% NonAnnotated |
+    net_df$from %in% NonAnnotated & net_df$to %in% gpnae) &
+    !is.na(net_df$group_mass)), ]
+
+tab_NonAnnotated <- table(networkOfInterest$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+}
+
+
+
+## annotated but w.o. spectral simil
+
+AnnotatedNoSimilarity <- results_top[(!is.na(results_top$network_annotation) &
+  results_top$network_layer != "1_layer_gnps"), ]$Row
+
+networkOfInterest <-
+  net_df[((net_df$from %in% gpnae & net_df$to %in% AnnotatedNoSimilarity |
+    net_df$from %in% AnnotatedNoSimilarity & net_df$to %in% gpnae) &
+    !is.na(net_df$group_mass) &
+    is.na(net_df$gnps_cosine)
+  ), ]
+
+tab_AnnotatedNoSimil <- table(networkOfInterest$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+
+
+
+## annotated with correct SIRIUS
+## get mass difference of annotated nodes
+Annotated_sir_y <- results_top[!is.na(results_top$siriusMatch) &
+                                 results_top$siriusMatch == "yes", ]$Row
+
+## keep only edges with matching sirius
+networkOfInterest <-
+  net_df[((net_df$from %in% gpnae & net_df$to %in% Annotated_sir_y  |
+    net_df$from %in% Annotated_sir_y  & net_df$to %in% gpnae) &
+    !is.na(net_df$group_mass)
+    ), ]
+
+
+tab_Annotated_sirY <- table(networkOfInterest$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+
+
+## annotated and wrong SIRIUS
+## get mass difference of annotated nodes
+Annotated_sir_n <- results_top[!is.na(results_top$siriusMatch) &
+                                 results_top$siriusMatch == "no", ]$Row
+
+## keep only edges with matching sirius
+networkOfInterest <-
+  net_df[((net_df$from %in% gpnae & net_df$to %in% Annotated_sir_n  |
+    net_df$from %in% Annotated_sir_n  & net_df$to %in% gpnae) &
+    !is.na(net_df$group_mass)
+    ), ]
+
+
+tab_Annotated_sirN <- table(networkOfInterest$group_mass) %>%
+  as.data.frame() %>%
+  arrange(-Freq)
+
+
+
+tab_master <- merge(tab_Annotated, tab_AnnotatedNoSimil, by = "Var1", all = TRUE)
+colnames(tab_master) <- c("Var1", "Annotated", "AnnotatedNoSimil")
+
+tab_master <- merge(tab_master, tab_firstNeighbors, by = "Var1", all = TRUE)
+colnames(tab_master) <- c(colnames(tab_master)[-length(tab_master)], "firstNeighbors")
+
+tab_master <- merge(tab_master, tab_Annotated_sirY, by = "Var1", all = TRUE)
+colnames(tab_master) <- c(colnames(tab_master)[-length(tab_master)], "siriusMatch")
+
+if (nrow(tab_Annotated_sirN) != 0) {
+tab_master <- merge(tab_master, tab_Annotated_sirN, by = "Var1", all = TRUE)
+colnames(tab_master) <- c(colnames(tab_master)[-length(tab_master)], "siriusMissMatch")
+}
+if (length(NonAnnotated) != 0) {
+ tab_master <- merge(tab_master, tab_NonAnnotated, by = "Var1", all = TRUE)
+ colnames(tab_master) <- c(colnames(tab_master)[-length(tab_master)], "NonAnnotated")
+}
+
+# write_csv(tab_master,
+#   file = paste0(seeds_fold, "MassDifferencesStatistics.csv")
+# )
+
+```
+Summary of mass differences of:
+```{r mass-diff}
+# first neighbors of seeds
+head(tab_firstNeighbors)
+# Annotated nodes 
+head(tab_Annotated)
+
+# NOT Annotated nodes 
+if (length(NonAnnotated) != 0) {
+head(tab_NonAnnotated)
+}
+# Annotated nodes but without spectral similarity
+head(tab_AnnotatedNoSimil)
+# Annotated nodes that match to SIRIUS molecular formula
+head(tab_Annotated_sirY)
+# Annotated nodes that NOT match to SIRIUS  molecular formula
+head(tab_Annotated_sirN)
+
+```
+
+## Glucose annotations
+The annotation of Glucose variants of GPNAEs is mainly accomplished by 
+propagation in die mass-difference layer because the MS2 spectra are 
+too different. 
+Therefore, this section evaluates the properties of the Glucose annotations of this dataset. 
+First, we want to create a sub-network and keep glucose annotations only.
+```{r Gluc}
+annoGluc <- results_top[results_top$network_annotation %like% "C6H10O5", ]
+
+#Number of Glucose annotations
+nrow(annoGluc)
+
+#Number of ms2 available at Glucose annotations
+table(annoGluc$ms2_available)
+
+#Layer that have been used for Glucose annotation
+table(annoGluc$network_layer)
+
+## how many with sirius correct 
+table(annoGluc$siriusMatch)
+
+```
+
+```{r, include=FALSE}
+#Keep only seed nodes and glucose annotations and all their edges 
+glu_net <- net_df[net_df$from %in% annoGluc$Row | net_df$to %in% annoGluc$Row |
+  net_df$from %in% gpnae | net_df$to %in% gpnae, ]
+
+# Keep only edges between Glucose annotations and seed nodes
+glu_edge <- glu_net[glu_net$from %in% gpnae & glu_net$to %in% annoGluc$Row |
+  glu_net$to %in% gpnae & glu_net$from %in% annoGluc$Row, ]
+
+# edges withing glucose subnetwork
+inner_glu <-
+  glu_net[glu_net$from %in% annoGluc$Row &
+    glu_net$to %in% annoGluc$Row, ]
+```
+how many spec edges within glucose sub network and their mean 
+spectral similarity
+
+```{r}
+# number of glucose annotations that have spectral similarity within each other
+length(inner_glu[!is.na(inner_glu$gnps_cosine), ]$gnps_cosine)
+# mean spectral similarity
+mean(inner_glu[!is.na(inner_glu$gnps_cosine), ]$gnps_cosine)
+```
+
+### Evaluation of benefits of Homol Series
+
+We test if we see any benefits/ better annotation by features that are 
+somehow connected in the homologous series network, because they are more 
+likely to be real biological features because of the RT trends. 
+Therefore we create a sub network, where we remove all features that show 
+no connection in the homologous series layer. 
+
+
+```{r }
+# remove nodes that have no homol series (from original file)
+homol_net <- net_df[!is.na(net_df$HSIDs), ]
+
+#get cluster_ID of the nodes that appear on homol series layer
+homols <- unique(c(homol_net$from, homol_net$to))
+
+# filter results file by those features appearing in homol series
+results_homol <- results_top[results_top$Row %in% homols, ]
+
+    
+## how many left
+nrow(results_homol)
+nrow(results_top)
+
+#Layer that have been used for annotation
+table(results_homol$network_layer)
+table(results_top$network_layer)
+
+## how many with MS2
+table(results_homol$ms2_available)
+table(results_top$ms2_available)
+
+## how many with sirius correct compared to all nodes
+table(results_homol$siriusMatch)
+table(results_top$siriusMatch)
+
+```
+
+#### Evaluation using Glucose Annotations
+```{r}
+## create subnetwork with Glucose nodes and nodes that appeat in homol series
+annoGluc_homol <- results_homol[results_homol$network_annotation %like% "C6H10O5", ]
+
+## how many left
+nrow(annoGluc_homol)
+
+#Layer that have been used for Glucose annotation
+table(annoGluc_homol$network_layer)
+
+## how many with MS2
+table(annoGluc_homol$ms2_available)
+
+## how many with sirius correct 
+table(annoGluc_homol$siriusMatch)
+
+
+```
+## Validation using manually Annotated nodes
+
+In order to verify how good annotations are with the network propagation algorithm, we next create a sub network were we only keep nodes where we have an manual annotation (i.e. a molecular formula for matching). 
+With that we can first validate how good our annotations are and secondly, validate if filtering nodes for the homologous series increases our annotation success or if we just lose important annotations. 
+
+```{r, include=FALSE}
+# keep only ids where molecular formula is available
+validMol <- ids[ids$formula != "", ]
+
+validMol <- select(validMol, Row, Annotation.ID, molFormula = formula)
+validMol[validMol == ""] <- NA
+
+
+results_valid <- merge(results_top, validMol, by = "Row", all.x = TRUE)
+
+results_valid <- results_valid %>% 
+  select(Row, `m.z`, RT, "Annotation.ID.x", "formula", 
+         "ms2_available", "network_annotation", "network_formula",
+         "Annotation.ID.y","molFormula",
+         "network_inputNode", "network_layer",
+         "network_comment", "key_fragments"
+         )
+
+
+results_valid$validMolMatch <- ifelse(sapply(
+  lapply(results_valid$network_formula, grepl,
+    x = results_valid$molFormula
+  ),
+  any
+), "yes", "no")
+
+results_valid$validMolMatch <- ifelse(is.na(results_valid$molFormula), 
+                                  NA,results_valid$validMolMatch)
+
+
+
+
+
+
+
+noMatch <- results_valid[results_valid$validMolMatch == "no" & 
+                           !is.na(results_valid$validMolMatch), ]
+
+Match <- results_valid[results_valid$validMolMatch == "yes" & 
+                           !is.na(results_valid$validMolMatch), ]
+
+```
+
+```{r}
+#how many does match 
+nrow(Match)
+
+#how many does NOT match
+nrow(noMatch)
+#comment on network to see what e.g. mass differences can be excluded
+noMatch$network_comment
+
+
+```
+### Test if homol series increase the success 
+
+
+
+
+```{r}
+## test how many homols have key fragments 
+table(select(results_top, homol, key_fragments))
+
+## test how many homols in 2_layer annotation gnps+mass
+table(results_top[results_top$network_layer == "2_layers_gnps_mass", ]$homol)
+
+## test how many homols in 1_layer annotation gnps
+table(results_top[results_top$network_layer == "1_layer_gnps", ]$homol)
+
+
+
+homol_valid <- merge(results_homol, validMol, by = "Row", all.x = TRUE)
+
+homol_valid <- homol_valid %>% 
+  select(Row, `m.z`, RT, "Annotation.ID.x", "formula", 
+         "ms2_available", "network_annotation", "network_formula",
+         "Annotation.ID.y","molFormula",
+         "network_inputNode", "network_layer",
+         "network_comment", "key_fragments"
+         )
+
+
+homol_valid$validMolMatch <- ifelse(sapply(
+  lapply(homol_valid$network_formula, grepl,
+    x = homol_valid$molFormula
+  ),
+  any
+), "yes", "no")
+
+homol_valid$validMolMatch <- ifelse(is.na(homol_valid$molFormula), 
+                                  NA,homol_valid$validMolMatch)
+
+
+noMatchHomol <- homol_valid[homol_valid$validMolMatch == "no" & 
+                           !is.na(homol_valid$validMolMatch), ]
+
+MatchHomol <- homol_valid[homol_valid$validMolMatch == "yes" & 
+                           !is.na(homol_valid$validMolMatch), ]
+
+
+#how many does match 
+nrow(MatchHomol)
+
+#how many does NOT match
+nrow(noMatchHomol)
+#comment on network to see what e.g. mass differences can be excluded
+noMatchHomol$network_comment
+
+## get differences between matches of homol series 
+## filtered results file and normal file
+
+
+diff <- anti_join( Match, MatchHomol)
+# All those annotations are missed when using homol series to filter all nodes:
+diff$Annotation.ID.y
+
+# check which layers are affected
+
+diff$network_layer
+
+
+
+
+```
+
+
+
+
+
+```{r, include=FALSE}
+
+df_s <- table(results_homol[, c("siriusMatch", "network_layer")],
+  useNA = "always"
+) %>% as.data.frame()
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "no", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "no", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "yes", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "yes", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = NA, network_layer = "total",
+  Freq = sum(df_s[is.na(df_s$siriusMatch), ]$Freq, na.rm = T)
+))
+
+
+df_s <- group_by(df_s, network_layer) %>% 
+  mutate(perc = paste0((round(Freq / sum(Freq) * 100, 1)), " %"))
+
+df_s <- df_s[!is.na(as.vector(df_s$network_layer)), ]
+
+df_s$network_layer <- factor(df_s$network_layer,
+  levels = c(
+    "total", "3_layers", "2_layers_gnps_mass", "2_layers_gnps_homol",
+    "2_layers_mass_homol", "1_layer_gnps", "1_layer_mass"
+  )
+)
+```
+#### plot homols 
+
+
+
+
+```{r}
+## SIRIUS matches when molecules are part of homol series 
+
+ggplot(data = df_s, aes(x = network_layer, y = Freq, fill = siriusMatch)) +
+  geom_bar(stat = "identity", width = 0.7, position = "stack") +
+  geom_text(aes(label = perc), position = position_stack(vjust = 0.5), size = 3.2) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_fill_manual(values = c("#69005f", "#ff506e", "black")) +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+
+ggplot(data = df_s[!is.na(df_s$siriusMatch), ] %>% group_by(network_layer) %>% 
+  mutate(perc = paste0((round(Freq / sum(Freq) * 100, 1)), " %")), 
+  aes(x = network_layer, y = Freq, fill = siriusMatch)) +
+  geom_bar(stat = "identity", width = 0.7, position = "stack") +
+  geom_text(aes(label = perc), position = position_stack(vjust = 0.5), size = 3.2) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_fill_manual(values = c("#69005f", "#ff506e", "black")) +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+
+```
+
+#### plot results_top
+1_layer_mass is now filtered: Only those nodes are kept that show any homol series 
+
+
+
+
+
+
+```{r, include=FALSE}
+
+# remove nodes that have no homol series from 1_layer_mass
+df_s <- table(results_top[!(results_top$homol == "no" &
+              results_top$network_layer == "1_layer_mass"), 
+              c("siriusMatch", "network_layer")],
+  useNA = "always"
+) %>% as.data.frame()
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "no", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "no", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = "yes", network_layer = "total",
+  Freq = sum(df_s[df_s$siriusMatch == "yes", ]$Freq, na.rm = T)
+))
+
+
+df_s <- rbind(df_s, data.frame(
+  siriusMatch = NA, network_layer = "total",
+  Freq = sum(df_s[is.na(df_s$siriusMatch), ]$Freq, na.rm = T)
+))
+
+
+df_s <- group_by(df_s, network_layer) %>% 
+  mutate(perc = paste0((round(Freq / sum(Freq) * 100, 1)), " %"))
+
+df_s <- df_s[!is.na(as.vector(df_s$network_layer)), ]
+
+df_s$network_layer <- factor(df_s$network_layer,
+  levels = c(
+    "total", "3_layers", "2_layers_gnps_mass", "2_layers_gnps_homol",
+    "2_layers_mass_homol", "1_layer_gnps", "1_layer_mass"
+  )
+)
+```
+
+
+
+
+```{r}
+## SIRIUS matches when molecules are part of homol series 
+
+ggplot(data = df_s, aes(x = network_layer, y = Freq, fill = siriusMatch)) +
+  geom_bar(stat = "identity", width = 0.7, position = "stack") +
+  geom_text(aes(label = perc), position = position_stack(vjust = 0.5), size = 3.2) +
+  labs(title = "No of Annotations") +
+  theme_minimal() +
+  scale_fill_manual(values = c("#69005f", "#ff506e", "black")) +
+  scale_y_continuous(breaks = pretty_breaks(n = 12)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+
+table(results_top[!(results_top$homol == "no" &
+              results_top$network_layer == "1_layer_mass"), 
+              "network_layer"]
+)
+
+table(results_top[, 
+              "network_layer"]
+)
+
+
+```
+
+
+## Annotated as LPEs 
+
+
+```{r}
+## SIRIUS matches when molecules are part of homol series 
+
+LPEs <- results_top[grepl("LPE", results_top$Annotation.ID),]
+
+# no of LPEs that were annotates as GPNAEs in the APEX
+nrow(LPEs)
+
+# layers that have been used
+table(LPEs$network_layer
+)
+
+# how many part of homol series
+table(LPEs$homol)
+
+
+
+```
+
+
+
+
+

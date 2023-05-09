@@ -1,0 +1,206 @@
+Row,m.z,RT,Annotation.ID,formula,adduct,evidence,ms2_available,homol,network_annotation,network_formula,network_inputNode,network_layer,network_comment,key_fragments,mz_diff,seedNo
+Cluster_0086,441.2649848,4.951807448,,,,,No,no,GPNAE(14:0)+NH3,C19H43N2O7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.018206299999974,1
+Cluster_0965,368.1848225,3.927558229,,,,,Yes,yes,GPNAE(11:0)--14.015,NA,Cluster_1071,1_layer_gnps,simil:0.9736; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,14.015435400000001,18
+Cluster_1038,378.2029731,2.760336412,,,,,No,yes,GPNAE(12:0) O-34.0144253,NA,Cluster_1277,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:260; homol RT:99.7333,NA,34.0075597,1
+Cluster_1042,378.2035127,2.592046352,,,,,Yes,yes,GPNAE(12:0) O-34.0144253,NA,Cluster_1277,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:262; homol RT:102.0392,NA,34.007020100000034,1
+Cluster_1071,382.2002579,4.194599268,GPNAE(11:0),C16H34NO7P,[M-H]-,,Yes,yes,GPNAE(12:0)--14.016,NA,Cluster_1165,1_layer_gnps,simil:0.9722; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,14.015491999999995,17
+Cluster_1155,394.1977755,2.531105812,,,,,Yes,yes,GPNAE(11:0)+C,C17H34NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C; homol HSID:NA; homol RT:NA,NA,-11.99751759999998,1
+Cluster_1156,394.1980063,2.626175819,,,,,Yes,yes,GPNAE(11:0)+C,C17H34NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C; homol HSID:NA; homol RT:NA,NA,-11.997748399999978,1
+Cluster_1165,396.2157499,4.468272995,GPNAE(12:0),C17H36NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-14.016,C17H36NO7P,Cluster_1071,1_layer_gnps,simil:0.9722; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-14.015491999999995,17
+Cluster_1166,396.2156455,4.628467879,LPE(12:0),C17H36NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+14.0154354,C17H36NO7P,Cluster_1071,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:1240; homol RT:20.2734,NA,-14.015387599999997,1
+Cluster_1167,396.2157274,4.738223628,LPE(12:0),C17H36NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+14.0154354,C17H36NO7P,Cluster_1071,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:1245; homol RT:23.4198,NA,-14.015469499999995,1
+Cluster_1182,398.20075,6.308014913,,,,,No,no,GPNAE(11:0)+O,C16H34NO8P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol HSID:NA; homol RT:NA,NA,-16.00049210000003,1
+Cluster_1229,406.198166,3.248720771,,,,,Yes,no,GPNAE(11:0)+C2,C18H34NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C2; homol HSID:NA; homol RT:NA,NA,-23.997908100000018,1
+Cluster_1230,406.1980772,2.715337642,,,,,Yes,yes,GPNAE(11:0)+C2,C18H34NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C2; homol HSID:NA; homol RT:NA,NA,-23.997819300000003,1
+Cluster_1246,408.2054938,4.433767351,GPNAE(13:1),C18H36NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-26.005,NA,Cluster_1071,1_layer_gnps,simil:0.9758; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-26.005235900000002,17
+Cluster_1264,410.1948399,3.597222796,,,,,Yes,yes,GPNAE(11:0)+-27.995,C17H34NO8P,Cluster_1071,1_layer_gnps,simil:0.9295; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-27.99458199999998,18
+Cluster_1265,410.1948967,3.852159514,,,,,No,yes,GPNAE(11:0)+CO,C17H34NO8P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Formylation (+CO); homol HSID:NA; homol RT:NA,NA,-27.99463880000002,3
+Cluster_1266,410.1948239,4.167532603,,,,,No,yes,GPNAE(11:0)+CO,C17H34NO8P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Formylation (+CO); homol HSID:NA; homol RT:NA,NA,-27.99456600000002,1
+Cluster_1267,410.2312752,4.689680206,GPNAE(13:0),C18H38NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-28.031,C18H38NO7P,Cluster_1071,1_layer_gnps,simil:0.968; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-28.03101730000003,17
+Cluster_1268,410.2311933,4.899770539,,,,,No,yes,GPNAE(11:0)+C2H4,C18H38NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030935399999976,2
+Cluster_1269,410.2311096,5.015887052,LPE(13:0),C18H38NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C2H4,C18H38NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030851700000028,2
+Cluster_1277,412.2105328,4.290994314,GPNAE(12:0) O,C17H36NO8P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-30.01,C17H36NO8P,Cluster_1071,1_layer_gnps,simil:0.9496; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-30.010274900000013,17
+Cluster_1332,420.215549,4.57871783,GPNAE(14:2),C19H36NO7P,[M-H]-,,Yes,yes,GPNAE(11:0)+-38.015,NA,Cluster_1071,1_layer_gnps,simil:0.9644; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-38.01529110000001,17
+Cluster_1333,420.2154309,5.882768847,,,,,Yes,no,GPNAE(12:0)+C2,C19H36NO7P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:C2; homol HSID:NA; homol RT:NA,NA,-23.99968100000001,1
+Cluster_1334,420.2155444,4.416368595,GPNAE(14:2),C19H36NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-38.015,NA,Cluster_1071,1_layer_gnps,simil:0.979; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-38.0152865,17
+Cluster_1349,422.2314337,4.697103617,GPNAE(14:1),C19H38NO7P,[M-H]-,,Yes,yes,GPNAE(11:0)+-40.031,NA,Cluster_1071,1_layer_gnps,simil:0.9663; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-40.03117580000003,17
+Cluster_1358,424.2241789,3.61911802,,,,,Yes,yes,GPNAE(13:1)+NH2,C18H38N2O7P,Cluster_1246,1_layer_mass,simil:NA; mzdiff:Amination (+NH2); homol HSID:NA; homol RT:NA,NA,-16.018685100000027,1
+Cluster_1359,424.2467785,5.053140096,GPNAE(14:0),C19H40NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-42.047,C19H40NO7P,Cluster_1071,1_layer_gnps,simil:0.938; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-42.04652060000001,17
+Cluster_1360,424.2464924,5.252921219,LPE(14:0),C19H40NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C3H6,C19H40NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C3H6; homol HSID:NA; homol RT:NA,NA,-42.046234500000025,4
+Cluster_1361,424.2465688,5.371848387,LPE(14:0),C19H40NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C3H6,C19H40NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C3H6; homol HSID:NA; homol RT:NA,NA,-42.04631089999998,4
+Cluster_1412,429.2352292,2.909253583,,,,,Yes,yes,GPNAE(12:0) O+NH3,C17H39N2O8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.024696399999982,1
+Cluster_1413,429.2352499,2.368965019,,,,,No,yes,GPNAE(12:0) O+NH3,C17H39N2O8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.024717099999975,1
+Cluster_1414,429.2341515,3.120168887,,,,,Yes,no,GPNAE(12:0) O+NH3,C17H39N2O8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.023618699999986,1
+Cluster_1463,435.2249966,2.973294843,,,,,No,yes,GPNAE(14:2)+NH,C19H37N2O7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.009452199999998,2
+Cluster_1464,435.2231379,4.401530258,,,,,Yes,no,GPNAE(14:2)+NH,C19H37N2O7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.007593499999984,2
+Cluster_1473,436.210379,3.773135626,,,,,Yes,no,GPNAE(11:0)+-54.921,NA,Cluster_1071,1_layer_gnps,simil:0.8597; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-54.01012109999999,14
+Cluster_1474,436.2472492,4.977989207,,,,,Yes,yes,GPNAE(11:0)+-54.047,NA,Cluster_1071,1_layer_gnps,simil:0.9618; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-54.0469913,18
+Cluster_1477,437.2021399,4.3157396,,,,,Yes,yes,GPNAE(11:0)+-56.026,NA,Cluster_1071,1_layer_gnps,simil:0.8922; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-55.00188200000002,18
+Cluster_1488,438.2257446,3.856864882,GPNAE(14:1) O,C19H38NO8P,[M - H]-,,Yes,no,GPNAE(11:0)+-56.025,NA,Cluster_1071,1_layer_gnps,simil:0.8685; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-56.02548669999999,15
+Cluster_1490,438.2258185,4.133826621,,,,,No,yes,GPNAE(12:0)+C2H2O,C19H38NO8P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:Acetylation (+C2H2O); homol HSID:NA; homol RT:NA,NA,-42.01006860000001,6
+Cluster_1492,438.2621851,5.304982846,GPNAE(15:0),C20H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-56.062,C20H42NO7P,Cluster_1071,1_layer_gnps,simil:0.8844; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-56.061927200000014,16
+Cluster_1493,438.2620152,5.482514285,LPE(15:0),C20H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C4H8,C20H42NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06175730000001,5
+Cluster_1494,438.2622517,5.605310683,LPE(15:0),C20H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C4H8,C20H42NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06199379999998,5
+Cluster_1515,441.2617355,4.172315302,,,,,Yes,yes,GPNAE(11:0)+-59.061,NA,Cluster_1071,1_layer_gnps,simil:0.8312; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-59.06147759999999,5
+Cluster_1529,442.2658787,2.702599923,,,,,No,yes,GPNAE(14:0)+H2O,C19H42NO8P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Condensation (+H2O); homol HSID:NA; homol RT:NA,NA,-18.01910019999997,1
+Cluster_1543,444.2154555,4.529875759,,,,,Yes,yes,GPNAE(11:0)+-62.015,C21H36NO7P,Cluster_1071,1_layer_gnps,simil:0.9664; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-62.01519760000002,18
+Cluster_1562,446.2309768,4.6834164,GPNAE(16:3),C21H38NO7P,[M - H]-,,Yes,yes,GPNAE(11:0)+-64.031,NA,Cluster_1071,1_layer_gnps,simil:0.9658; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-64.03071890000001,17
+Cluster_1563,446.2306837,6.084780653,,,,,No,yes,GPNAE(14:2)+C2H2,C21H38NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C2H2; homol HSID:NA; homol RT:NA,NA,-26.015139299999987,4
+Cluster_1564,446.2306273,6.222852198,,,,,Yes,yes,GPNAE(14:2)+C2H2,C21H38NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C2H2; homol HSID:NA; homol RT:NA,NA,-26.01508289999998,4
+Cluster_1565,446.2309319,4.803495084,,,,,Yes,yes,GPNAE(11:0)+-64.031,NA,Cluster_1071,1_layer_gnps,simil:0.9231; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-64.03067399999998,18
+Cluster_1569,447.0635412,5.216266458,,,,,Yes,yes,GPNAE(11:0)+-68.454,NA,Cluster_1071,1_layer_gnps,simil:0.8153; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-64.86328329999998,13
+Cluster_1576,447.179072,4.405162248,,,,,Yes,yes,GPNAE(11:0)+-64.979,NA,Cluster_1071,1_layer_gnps,simil:0.8064; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-64.97881410000002,1
+Cluster_1580,447.2231923,4.257213163,,,,,Yes,yes,GPNAE(18:5)-23.0030694,NA,Cluster_1812,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:129; homol RT:33.1397,NA,23.007585500000005,2
+Cluster_1594,448.2461745,6.963354471,,,,,No,no,GPNAE(14:2)+C2H4,C21H40NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030630099999996,5
+Cluster_1595,448.2462376,7.236362988,,,,,Yes,no,GPNAE(14:2)+C2H4,C21H40NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030693199999973,5
+Cluster_1596,448.2465542,4.923878461,,,,,Yes,yes,GPNAE(11:0)+-66.046,NA,Cluster_1071,1_layer_gnps,simil:0.9572; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-66.0462963,18
+Cluster_1597,448.2466071,5.064650613,,,,,Yes,yes,GPNAE(14:0)+C2,C21H40NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:C2; homol HSID:NA; homol RT:NA,NA,-23.9998286,13
+Cluster_1598,448.2464334,5.183465807,,,,,No,yes,GPNAE(14:2)+C2H4,C21H40NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030889000000002,6
+Cluster_1615,450.2633043,5.254983281,GPNAE(16:1),C21H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-68.063,C21H42NO7P,Cluster_1071,1_layer_gnps,simil:0.8878; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-68.06304640000002,16
+Cluster_1617,450.2631335,5.530769743,LPE(16:1),C21H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+C5H8,C21H42NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06287559999998,4
+Cluster_1639,452.277797,5.874173103,LPE(16:0),C21H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(12:0)+C4H8,C21H44NO7P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06204710000003,5
+Cluster_1640,452.2781394,6.001467577,LPE(16:0),C21H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(12:0)+C4H8,C21H44NO7P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.062389499999995,5
+Cluster_1649,453.2710952,3.613565372,,,,,No,no,GPNAE(15:0)+NH,C20H43N2O7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.00891009999998,1
+Cluster_1665,455.2457061,4.223944623,,,,,No,yes,GPNAE(14:1) O+NH3,C19H41N2O8P,Cluster_1488,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.019961500000022,1
+Cluster_1675,456.2319955,3.131682256,,,,,No,yes,GPNAE(12:0) O+C2H4O,C19H40NO9P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.02146269999997,3
+Cluster_1676,456.2816051,3.074889687,,,,,Yes,yes,GPNAE(15:0)+H2O,C20H44NO8P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Condensation (+H2O); homol HSID:NA; homol RT:NA,NA,-18.01941999999997,1
+Cluster_1706,460.2466681,6.667388808,,,,,Yes,no,GPNAE(16:3)+CH2,C22H40NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Methylation (+CH2); homol HSID:NA; homol RT:NA,NA,-14.015691300000015,1
+Cluster_1707,460.2466864,6.895870754,,,,,Yes,no,GPNAE(16:3)+CH2,C22H40NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Methylation (+CH2); homol HSID:NA; homol RT:NA,NA,-14.01570959999998,1
+Cluster_1713,461.244176,3.129279417,,,,,No,yes,GPNAE(16:3)+NH,C21H39N2O7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.013199199999974,1
+Cluster_1723,462.2604926,2.68300506,,,,,No,yes,GPNAE(14:2)+C3H6,C22H42NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C3H6; homol HSID:NA; homol RT:NA,NA,-42.04494820000002,5
+Cluster_1738,463.2556737,2.873752132,,,,,Yes,yes,GPNAE(16:3)+NH3,C21H41N2O7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.02469689999998,1
+Cluster_1739,463.2553648,3.119686739,,,,,Yes,yes,GPNAE(16:3)+NH3,C21H41N2O7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.024387999999988,1
+Cluster_1745,464.2050368,4.455186823,,,,,No,yes,GPNAE(14:2)+CO2,C20H36NO9P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98949240000002,2
+Cluster_1746,464.2050773,3.678022948,,,,,No,yes,GPNAE(14:2)+CO2,C20H36NO9P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98953290000003,2
+Cluster_1748,464.2412577,4.943258339,,,,,Yes,yes,GPNAE(14:2)+C2H4O,C21H40NO8P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.02571330000001,6
+Cluster_1749,464.2780167,5.619414769,GPNAE(17:1),C22H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-82.078,NA,Cluster_1071,1_layer_gnps,simil:0.9133; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-82.07775880000003,17
+Cluster_1750,464.2786565,5.758974666,LPE(17:1),C22H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(12:0)+C5H8,C22H44NO7P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06290660000002,4
+Cluster_1751,464.2789512,5.879552768,LPE(17:1),C22H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(12:0)+C5H8,C22H44NO7P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0632013,4
+Cluster_1773,466.2571581,4.857513689,,,,,Yes,yes,GPNAE(11:0)+-84.057,NA,Cluster_1071,1_layer_gnps,simil:0.9053; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-84.05690020000003,19
+Cluster_1774,466.2937737,6.243377368,,,,,No,yes,GPNAE(13:0)+C4H8,C22H46NO7P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06249849999995,5
+Cluster_1812,470.2307778,4.730862258,GPNAE(18:5),C23H38NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-88.031,NA,Cluster_1071,1_layer_gnps,simil:0.8949; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-88.0305199,17
+Cluster_1813,470.2309462,4.8385393,GPNAE(18:5),C23H38NO7P,[M-H]-,MS2,Yes,yes,GPNAE(16:3)+C2,C23H38NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C2; homol HSID:NA; homol RT:NA,NA,-23.999969399999998,2
+Cluster_1814,470.2516136,4.483667753,,,,,No,yes,GPNAE(15:0)+O2,C20H42NO9P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:O2; homol HSID:NA; homol RT:NA,NA,-31.989428499999974,1
+Cluster_1834,472.2464474,4.927114194,GPNAE(18:4),C23H40NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-90.046,NA,Cluster_1071,1_layer_gnps,simil:0.9562; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-90.04618950000003,18
+Cluster_1835,472.2464285,5.1526513,LPE(18:4),C23H40NO7P,[M-H]-,MS2,Yes,yes,GPNAE(13:0)+C5H2,C23H40NO7P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01515329999995,6
+Cluster_1851,473.3594549,5.296512657,,,,,Yes,no,GPNAE(11:0)+-92.062,NA,Cluster_1071,1_layer_gnps,simil:0.9163; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-91.159197,18
+Cluster_1854,474.2545902,2.579494252,,,,,No,yes,GPNAE(16:3)+C2H4,C23H42NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.023613399999988,3
+Cluster_1855,474.2617382,7.18263082,LPE(18:3),C23H42NO7P,[M-H]-,MS2,Yes,no,GPNAE(16:3)+C2H4,C23H42NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.030761400000017,3
+Cluster_1856,474.2624902,5.233013189,GPNAE(18:3),C23H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-92.062,NA,Cluster_1071,1_layer_gnps,simil:0.9543; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-92.0622323,17
+Cluster_1857,474.2623408,5.459669638,LPE(18:3),C23H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(16:3)+C2H4,C23H42NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.031363999999996,3
+Cluster_1870,476.241116,5.958956015,,,,,No,no,GPNAE(16:3)+CH2O,C22H40NO8P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Deamination (+CH2O); homol HSID:NA; homol RT:NA,NA,-30.01013919999997,1
+Cluster_1872,476.2784854,5.61918363,,,,,No,yes,GPNAE(14:2)+C4H8,C23H44NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06294100000002,5
+Cluster_1873,476.2788231,5.726073391,LPE(18:2),C23H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(14:2)+C4H8,C23H44NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06327870000001,5
+Cluster_1874,476.286982,2.865790411,,,,,No,no,GPNAE(14:2)+C4H8,C23H44NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.071437600000024,5
+Cluster_1893,478.2573725,5.997608901,,,,,Yes,no,GPNAE(16:1)+CO,C22H42NO8P,Cluster_1615,1_layer_mass,simil:NA; mzdiff:Formylation (+CO); homol HSID:NA; homol RT:NA,NA,-27.99406819999996,1
+Cluster_1895,478.293443,5.551684955,,,,,Yes,yes,GPNAE(13:0)+C5H8,C23H46NO7P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0621678,4
+Cluster_1896,478.2943488,5.996893566,,,,,No,yes,GPNAE(13:0)+C5H8,C23H46NO7P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0630736,4
+Cluster_1897,478.2944881,6.112964344,LPE(18:1),C23H46NO7P,[M - H]-,MS2,Yes,yes,GPNAE(13:0)+C5H8,C23H46NO7P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0632129,4
+Cluster_1913,479.2980506,2.883047152,,,,,No,yes,GPNAE(17:1)+NH,C22H45N2O7P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.020033899999987,1
+Cluster_1918,480.3094148,5.300830832,,,,,Yes,no,GPNAE(14:0)+C4H8,C23H48NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06263630000001,3
+Cluster_1919,480.3091569,6.635615618,LPE(18:0),C23H48NO7P,[M-H]-,MS2,Yes,yes,GPNAE(14:0)+C4H8,C23H48NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.0623784,3
+Cluster_1936,481.3062592,5.670675552,,,,,No,yes,GPNAE(17:1)+NH3,C22H47N2O7P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.028242499999976,1
+Cluster_1981,485.2512314,5.079286762,,,,,No,yes,GPNAE(18:5)+NH,C23H39N2O7P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Amination (+NH); homol HSID:NA; homol RT:NA,NA,-15.020453599999996,2
+Cluster_1997,487.2523514,0.987515379,,,,,No,no,GPNAE(18:5)+NH3,C23H41N2O7P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.02157360000001,3
+Cluster_2000,487.2557278,3.733511897,,,,,No,yes,GPNAE(18:5)+NH3,C23H41N2O7P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.02494999999999,3
+Cluster_2009,488.2689827,2.56540066,,,,,No,yes,GPNAE(16:3)+C3H6,C24H44NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C3H6; homol HSID:NA; homol RT:NA,NA,-42.03800589999997,4
+Cluster_2014,489.2761518,7.995199247,,,,,Yes,no,GPNAE(18:4)+NH3,C23H43N2O7P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.029704399999957,2
+Cluster_2015,489.2759175,8.591056114,,,,,No,no,GPNAE(18:4)+NH3,C23H43N2O7P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.02947009999997,2
+Cluster_2024,490.2178524,4.697933713,,,,,No,yes,GPNAE(16:3)+CO2,C22H38NO9P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98687560000002,1
+Cluster_2025,490.2567701,5.188034098,,,,,No,yes,GPNAE(16:3)+C2H4O,C23H42NO8P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.025793299999975,3
+Cluster_2026,490.2562326,4.748894631,,,,,No,yes,GPNAE(16:3)+C2H4O,C23H42NO8P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.02525579999997,4
+Cluster_2028,490.290492,3.700769275,,,,,No,no,GPNAE(14:1)+C5H8,C24H46NO7P,Cluster_1349,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.05905829999995,3
+Cluster_2033,491.2867179,2.976687859,,,,,No,yes,GPNAE(18:3)+NH3,C23H45N2O7P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Amination (+NH3); homol HSID:NA; homol RT:NA,NA,-17.024227699999983,1
+Cluster_2047,492.3092066,5.898383879,,,,,No,no,GPNAE(14:0)+C5H8,C24H48NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06242809999998,3
+Cluster_2048,492.3095221,6.36919725,LPE(19:1),C24H48NO7P,[M-H]-,MS2,Yes,yes,GPNAE(14:0)+C5H8,C24H48NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06274359999998,3
+Cluster_2049,492.3096619,6.492062625,LPE(19:1),C24H48NO7P,[M-H]-,MS2,Yes,yes,GPNAE(14:0)+C5H8,C24H48NO7P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06288339999998,3
+Cluster_2065,494.288475,5.199068483,,,,,No,yes,GPNAE(14:1) O+C4H8,C23H46NO8P,Cluster_1488,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06273040000002,3
+Cluster_2113,498.2622035,5.203287984,GPNAE(20:5),C25H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(18:5)+C2H4,C25H42NO7P,Cluster_1813,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.031257299999993,18
+Cluster_2114,498.2631137,5.39799686,LPE(20:5),C25H42NO7P,[M-H]-,MS2,Yes,yes,GPNAE(18:5)+C2H4,C25H42NO7P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol HSID:NA; homol RT:NA,NA,-28.03233590000002,4
+Cluster_2138,500.2407833,5.14229226,,,,,No,yes,GPNAE(14:1) O+C5H2,C24H40NO8P,Cluster_1488,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01503869999999,4
+Cluster_2139,500.2714811,2.796623918,,,,,No,yes,GPNAE(15:0)+C5H2,C25H44NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.009296000000006,4
+Cluster_2140,500.2791516,5.511857629,LPE(20:4),C25H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(15:0)+C5H2,C25H44NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01696649999997,4
+Cluster_2141,500.2782996,5.608967325,,,,,No,yes,GPNAE(15:0)+C5H2,C25H44NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.016114500000015,4
+Cluster_2142,500.2779863,5.715485895,LPE(20:4),C25H44NO7P,[M-H]-,MS2,Yes,yes,GPNAE(15:0)+C5H2,C25H44NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.0158012,4
+Cluster_2161,502.2939108,5.839497572,,,,,No,yes,GPNAE(16:3)+C4H8,C25H46NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.062933999999984,2
+Cluster_2162,502.2938469,5.938900736,,,,,No,yes,GPNAE(16:3)+C4H8,C25H46NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.0628701,2
+Cluster_2179,504.2337468,4.980825545,,,,,No,yes,GPNAE(18:4)+O2,C23H40NO9P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:O2; homol HSID:NA; homol RT:NA,NA,-31.987299399999984,1
+Cluster_2204,506.3248604,6.016709973,,,,,No,yes,GPNAE(15:0)+C5H8,C25H50NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06267529999997,3
+Cluster_2205,506.32476,6.132407045,,,,,No,yes,GPNAE(15:0)+C5H8,C25H50NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06257490000002,3
+Cluster_2206,506.3245288,6.230650961,,,,,Yes,no,GPNAE(15:0)+C5H8,C25H50NO7P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06234369999999,3
+Cluster_2220,508.2668415,5.649742478,,,,,No,no,GPNAE(17:1)+CO2,C23H44NO9P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.988824799999975,1
+Cluster_2285,514.2873816,2.74164317,,,,,Yes,yes,GPNAE(16:3)+C5H8,C26H46NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0564048,3
+Cluster_2286,514.3024018,3.457154146,,,,,No,yes,GPNAE(16:3)+C5H8,C26H46NO7P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.07142499999998,3
+Cluster_2300,516.2357931,5.067832918,,,,,Yes,yes,GPNAE(18:4)+CO2,C24H40NO9P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.9893457,1
+Cluster_2302,516.2664094,2.5804869,,,,,No,yes,GPNAE(18:4)+C2H4O,C25H44NO8P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.01996200000002,3
+Cluster_2304,516.2788608,5.516723312,,,,,No,yes,GPNAE(18:4)+C2H4O,C25H44NO8P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.03241339999994,3
+Cluster_2305,516.2754914,5.627618992,,,,,No,yes,GPNAE(18:4)+C2H4O,C25H44NO8P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.02904399999994,3
+Cluster_2322,518.2554913,2.853494463,,,,,No,yes,GPNAE(18:3)+CO2,C24H42NO9P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.993001100000015,1
+Cluster_2323,518.2505397,5.2598103,,,,,Yes,yes,GPNAE(18:3)+CO2,C24H42NO9P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98804949999999,1
+Cluster_2324,518.2516643,5.372368293,,,,,Yes,yes,GPNAE(18:3)+CO2,C24H42NO9P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.989174100000014,1
+Cluster_2326,518.2975204,3.347425601,,,,,No,yes,GPNAE(18:3)+C2H4O,C25H46NO8P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.03503020000005,1
+Cluster_2328,518.3342377,3.11328263,,,,,No,no,GPNAE(16:1)+C5H8,C26H50NO7P,Cluster_1615,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.0709334,1
+Cluster_2403,526.2935042,5.334453563,,,,,Yes,yes,GPNAE(17:1)+C5H2,C27H46NO7P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.015487500000006,4
+Cluster_2438,528.3102502,5.72573166,,,,,No,yes,GPNAE(18:4)+C4H8,C27H48NO7P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06380280000002,1
+Cluster_2439,528.3180954,3.625613499,,,,,No,yes,GPNAE(18:4)+C4H8,C27H48NO7P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.071647999999925,1
+Cluster_2450,530.2565101,0.984330245,,,,,No,no,GPNAE(20:5)+O2,C25H42NO9P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:O2; homol HSID:NA; homol RT:NA,NA,-31.994306600000016,1
+Cluster_2454,530.3181148,3.230882529,,,,,No,yes,GPNAE(18:3)+C4H8,C27H50NO7P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.05562459999999,1
+Cluster_2519,538.3018725,6.286658313,,,,,No,no,GPNAE(18:5)+C5H8,C28H46NO7P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.07109469999995,2
+Cluster_2567,542.2519745,5.223287708,,,,,Yes,yes,GPNAE(20:5)+CO2,C26H42NO9P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98977099999996,1
+Cluster_2568,542.2520329,5.319622794,,,,,Yes,yes,GPNAE(20:5)+CO2,C26H42NO9P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98982940000002,1
+Cluster_2569,542.2923607,2.627773878,,,,,No,yes,GPNAE(20:5)+C2H4O,C27H46NO8P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:C2H4O; homol HSID:NA; homol RT:NA,NA,-44.03015720000002,1
+Cluster_2571,542.3191098,2.929143468,,,,,Yes,yes,GPNAE(18:3)+C5H8,C28H50NO7P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.05661959999998,1
+Cluster_2572,542.3189843,3.284824564,,,,,Yes,yes,GPNAE(18:3)+C5H8,C28H50NO7P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.05649410000001,1
+Cluster_2573,542.3333304,3.791680132,,,,,No,yes,GPNAE(18:3)+C5H8,C28H50NO7P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.07084020000002,1
+Cluster_2586,544.2515235,4.022094244,,,,,No,yes,GPNAE(11:0)+C6H10O5,C22H44NO12P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05126559999997,1
+Cluster_2732,558.267604,4.276505355,,C17H36NO7P+Gluc,[M-H]-,MS2,No,yes,GPNAE(12:0)+C6H10O5,C23H46NO12P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0518541,1
+Cluster_2750,560.2747229,3.027940147,,,,,No,yes,GPNAE(20:5)+C5H2,C30H44NO7P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01251940000003,1
+Cluster_2859,570.2678761,4.241906321,,,,,Yes,yes,GPNAE(13:1)+C6H10O5,C24H46NO12P,Cluster_1246,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.06238229999997,1
+Cluster_2882,572.28384,4.47876493,,,,,Yes,yes,GPNAE(13:0)+C6H10O5,C24H48NO12P,Cluster_1267,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05256480000003,1
+Cluster_2990,582.2677539,4.238563533,,C25H46NO12P,[M - H]-,,Yes,yes,GPNAE(14:2)+C6H10O5,C25H46NO12P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0522095,2
+Cluster_2991,582.2677398,4.384524914,,,,,No,yes,GPNAE(14:2)+C6H10O5,C25H46NO12P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05219539999996,2
+Cluster_3019,584.2845983,4.487659685,,C25H48NO12P,[M - H]-,MS2,Yes,yes,GPNAE(14:1)+C6H10O5,C25H48NO12P,Cluster_1349,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05316459999995,1
+Cluster_3022,584.2854899,4.44209881,,,,,No,yes,GPNAE(14:1)+C6H10O5,C25H48NO12P,Cluster_1349,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0540562,1
+Cluster_3040,586.2904898,2.642565774,,,,,No,yes,GPNAE(14:0)+C6H10O5,C25H50NO12P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.04371130000004,1
+Cluster_3041,586.2998304,4.79925197,,,,,Yes,yes,GPNAE(14:0)+C6H10O5,C25H50NO12P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0530519,1
+Cluster_3044,586.3092826,2.820465285,,,,,No,yes,GPNAE(14:0)+C6H10O5,C25H50NO12P,Cluster_1359,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.06250409999996,1
+Cluster_3170,600.314953,5.022775293,,,,,Yes,yes,GPNAE(15:0)+C6H10O5,C26H52NO12P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05276789999994,1
+Cluster_3171,600.3250634,2.860206542,,,,,No,yes,GPNAE(15:0)+C6H10O5,C26H52NO12P,Cluster_1492,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.06287829999997,1
+Cluster_3258,608.2841798,4.48482769,,,,,Yes,yes,GPNAE(16:3)+C6H10O5,C27H48NO12P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05320299999994,1
+Cluster_3259,608.2840771,4.584256584,,,,,No,no,GPNAE(16:3)+C6H10O5,C27H48NO12P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05310029999998,1
+Cluster_3307,612.3144171,3.211667986,,,,,No,yes,GPNAE(16:1)+C6H10O5,C27H52NO12P,Cluster_1615,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0511128,1
+Cluster_3308,612.3158867,4.977788108,,C27H52NO12P,[M - H]-,MS2,Yes,yes,GPNAE(16:1)+C6H10O5,C27H52NO12P,Cluster_1615,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05258239999995,1
+Cluster_3309,612.3156389,5.072282189,,,,,Yes,yes,GPNAE(16:1)+C6H10O5,C27H52NO12P,Cluster_1615,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05233459999994,1
+Cluster_3456,626.3306653,5.29294539,,,,,No,yes,GPNAE(17:1)+C6H10O5,C28H54NO12P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05264859999994,1
+Cluster_3518,632.2604888,4.621613862,,,,,Yes,no,GPNAE(18:5)+-162.053,NA,Cluster_1813,1_layer_gnps,simil:0.8591; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-162.02954259999996,1
+Cluster_3535,634.2998205,4.707754923,,C29H50NO12P,[M - H]-,MS2,Yes,yes,GPNAE(18:4)+C6H10O5,C29H50NO12P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.0533731,1
+Cluster_3536,634.2997339,4.885152542,,,,,Yes,no,GPNAE(18:4)+C6H10O5,C29H50NO12P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05328649999996,1
+Cluster_3537,634.2989808,3.763797167,,,,,Yes,no,GPNAE(18:4)+C6H10O5,C29H50NO12P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05253339999996,1
+Cluster_3542,634.3054887,4.173212867,,,,,No,yes,GPNAE(18:4)+C6H10O5,C29H50NO12P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05904129999993,1
+Cluster_3555,636.315184,3.615128512,,,,,Yes,yes,GPNAE(18:3)+C6H10O5,C29H52NO12P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05269380000004,1
+Cluster_3556,636.3157485,4.970981267,,C29H52NO12P,[M - H]-,MS2,Yes,yes,GPNAE(18:3)+C6H10O5,C29H52NO12P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05325830000004,1
+Cluster_3557,636.3149533,3.682319494,,,,,Yes,yes,GPNAE(18:3)+C6H10O5,C29H52NO12P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05246309999995,1
+Cluster_3558,636.3146851,3.978665767,,,,,Yes,yes,GPNAE(18:3)+C6H10O5,C29H52NO12P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05219490000002,1
+Cluster_3561,636.3204887,3.615078688,,,,,No,yes,GPNAE(18:3)+C6H10O5,C29H52NO12P,Cluster_1856,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05799850000005,1
+Cluster_3788,660.3157336,4.953182316,,C31H52NO12P,[M - H]-,MS2,Yes,yes,GPNAE(20:5)+C6H10O5,C31H52NO12P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05353010000005,1
+Cluster_6250,786.3343413,0.735335519,,,,,No,no,GPNAE(16:3)+C12H20O11,C33H58NO18P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Disaccharide (+C12H20O11); homol HSID:NA; homol RT:NA,NA,-340.1033645,1
+Cluster_7146,383.1473778,3.13792856,,,,,Yes,no,GPNAE(11:0)+-0.947,NA,Cluster_1071,1_layer_gnps,simil:0.8166; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-0.9471199000000183,8
+Cluster_7153,387.2039124,3.327313389,,,,,No,yes,GPNAE(14:0)-37.037136,NA,Cluster_1359,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:282; homol RT:97.4202,NA,37.042866100000026,1
+Cluster_7167,394.2001208,4.206681178,,C17H34NO7P,[M-H]-,MS2,Yes,yes,GPNAE(11:0)+-12,C17H34NO7P,Cluster_1071,1_layer_gnps,simil:0.9646; mzdiff:NA; homol HSID:NA; homol RT:NA,NA,-11.999862899999982,18
+Cluster_7209,418.1996863,4.279796349,,,,,Yes,yes,GPNAE(16:3)-28.0312905,NA,Cluster_1562,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:203; homol RT:30.3031,NA,28.03129050000001,1
+Cluster_7243,438.2256184,4.72222429,,,,,No,yes,GPNAE(12:0)+C2H2O,C19H38NO8P,Cluster_1165,1_layer_mass,simil:NA; mzdiff:Acetylation (+C2H2O); homol HSID:NA; homol RT:NA,NA,-42.00986849999998,6
+Cluster_7256,444.2112613,3.241718061,,,,,No,no,GPNAE(11:0)+C5H2,C21H36NO7P,Cluster_1071,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01100339999999,3
+Cluster_7261,446.2339209,2.543816568,,,,,No,yes,GPNAE(14:2)+C2H2,C21H38NO7P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:C2H2; homol HSID:NA; homol RT:NA,NA,-26.018376499999988,3
+Cluster_7276,450.2257856,4.673315993,,,,,No,yes,GPNAE(14:2)+CH2O,C20H38NO8P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Deamination (+CH2O); homol HSID:NA; homol RT:NA,NA,-30.010241199999996,4
+Cluster_7311,461.2902551,6.574652997,,,,,No,yes,GPNAE(14:0)+37.037136,NA,Cluster_1359,1_layer_homol,simil:NA; mzdiff:NA; homol HSID:282; homol RT:97.4202,NA,-37.04347660000002,1
+Cluster_7312,462.2258331,4.640120877,,,,,No,no,GPNAE(14:2)+C2H2O,C21H38NO8P,Cluster_1334,1_layer_mass,simil:NA; mzdiff:Acetylation (+C2H2O); homol HSID:NA; homol RT:NA,NA,-42.01028869999999,4
+Cluster_7342,474.2256414,5.425119441,,,,,No,yes,GPNAE(12:0) O+C5H2,C22H38NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:C5H2; homol HSID:NA; homol RT:NA,NA,-62.01510859999996,2
+Cluster_7347,476.250445,2.961191651,,,,,No,yes,GPNAE(16:3)+CH2O,C22H40NO8P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Deamination (+CH2O); homol HSID:NA; homol RT:NA,NA,-30.019468200000006,1
+Cluster_7396,494.2883039,4.812672485,,,,,No,no,GPNAE(14:1) O+C4H8,C23H46NO8P,Cluster_1488,1_layer_mass,simil:NA; mzdiff:C4H8; homol HSID:NA; homol RT:NA,NA,-56.06255930000003,3
+Cluster_7445,508.2675221,5.798140211,,,,,Yes,no,GPNAE(17:1)+CO2,C23H44NO9P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.989505399999985,1
+Cluster_7470,516.2357798,4.957056719,,,,,No,yes,GPNAE(18:4)+CO2,C24H40NO9P,Cluster_1834,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol HSID:NA; homol RT:NA,NA,-43.98933240000002,1
+Cluster_7628,566.3298922,2.947151445,,,,,No,yes,GPNAE(20:5)+C5H8,C30H50NO7P,Cluster_2113,1_layer_mass,simil:NA; mzdiff:Isoprenylation (+C5H8); homol HSID:NA; homol RT:NA,NA,-68.06768870000002,1
+Cluster_7791,608.2758768,3.289966016,,,,,No,yes,GPNAE(16:3)+C6H10O5,C27H48NO12P,Cluster_1562,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.04489999999998,1
+Cluster_7861,626.3206566,3.34586206,,,,,No,yes,GPNAE(17:1)+C6H10O5,C28H54NO12P,Cluster_1749,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.04263989999998,1
+Cluster_7885,632.2838351,4.532479311,,C29H48NO12P,[M - H]-,MS2,Yes,no,GPNAE(18:5)+C6H10O5,C29H48NO12P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05305730000003,2
+Cluster_7886,632.2840319,4.621583038,,C29H48NO12P,[M - H]-,Network,No,no,GPNAE(18:5)+C6H10O5,C29H48NO12P,Cluster_1812,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol HSID:NA; homol RT:NA,NA,-162.05325409999995,2
