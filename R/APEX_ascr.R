@@ -43,8 +43,8 @@ cosine_filt <- 0.7
 
 
 # get all manual ascr species that will be used as seed node set (SNS)
-# (they are annotated using `#`)
-ascr <- ids[grepl("#", ids$Annotation.ID),]$Row
+ascr <- ids[grepl("ascr", ids$Annotation.ID) |
+              grepl("icas", ids$Annotation.ID),]$Row
 
 
 

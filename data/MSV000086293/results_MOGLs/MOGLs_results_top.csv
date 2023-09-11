@@ -1,0 +1,227 @@
+Row,Annotation.ID,formula,adduct,evidence,m.z,RT,ms2_available,homol,network_annotation,network_formula,network_inputNode,network_layer,network_comment,key_fragments,mz_diff,seedNo
+Cluster_1101,,,,,253.1036194,12.81270752,Yes,no,iglu#8--187.008,NA,Cluster_2523,1_layer_gnps,simil:0.9422; mzdiff:NA; homol mz:NA; homol RT:NA,NA,187.0082461,1
+Cluster_1277,iglu#1,C14H17NO5,[M-H]-,MS2 match,278.102203,6.529115704,Yes,no,iglu#1--0.001,NA,Cluster_1278,1_layer_gnps,simil:0.9672; mzdiff:NA; homol mz:NA; homol RT:NA,NA,0.001466500000049109,1
+Cluster_1278,iglu#1,C14H17NO5,[M-H]-,MS2 match,278.1036695,8.97519811,Yes,no,iglu#1+-0.001,NA,Cluster_1277,1_layer_gnps,simil:0.9672; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-0.001466500000049109,1
+Cluster_1423,,,,,294.0983271,7.781997004,Yes,no,iglu#1+O,C14H17NO6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.996124100000031,2
+Cluster_1424,,,,,294.0977804,5.038521006,Yes,no,iglu#1+O,C14H17NO6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.995577400000002,2
+Cluster_1530,,,,,306.0983726,8.646851169,Yes,no,iglu#1+CO,C15H17NO6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Formylation (+CO); homol mz:NA; homol RT:NA,NA,-27.99616960000003,2
+Cluster_1690,,,,,321.2201746,17.70284846,Yes,no,iglu#8--118.892,NA,Cluster_2523,1_layer_gnps,simil:0.8817; mzdiff:NA; homol mz:NA; homol RT:NA,NA,118.89169090000001,1
+Cluster_1691,,,,,322.0922612,6.38763683,Yes,no,iglu#1+CO2,C15H17NO7,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Carboxylation (+CO2); homol mz:NA; homol RT:NA,NA,-43.99005820000002,2
+Cluster_1704,,,,,324.1084879,8.976162723,Yes,no,iglu#1+-46.006,NA,Cluster_1277,1_layer_gnps,simil:0.803; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-46.006284900000026,2
+Cluster_1710,,,,,324.108068,6.529019047,Yes,no,iglu#1+-46.004,NA,Cluster_1278,1_layer_gnps,simil:0.8113; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-46.00439849999998,1
+Cluster_1723,,,,,325.106186,7.699616667,Yes,no,angl#2--52.952,NA,Cluster_2143,1_layer_gnps,simil:0.8024; mzdiff:NA; homol mz:NA; homol RT:NA,NA,52.9522571,3
+Cluster_1725,,,,,325.1061403,7.643483951,Yes,no,iglu#8--112.99,NA,Cluster_2523,1_layer_gnps,simil:0.9778; mzdiff:NA; homol mz:NA; homol RT:NA,NA,115.00572520000003,2
+Cluster_1726,,,,,325.105577,4.936382227,Yes,no,iglu#2--32.964,NA,Cluster_2005,1_layer_gnps,simil:0.9879; mzdiff:NA; homol mz:NA; homol RT:NA,NA,32.964012000000025,2
+Cluster_1744,,,,,327.0841216,4.311457199,Yes,no,iglu#8--113.028,NA,Cluster_2523,1_layer_gnps,simil:0.8595; mzdiff:NA; homol mz:NA; homol RT:NA,NA,113.02774390000002,1
+Cluster_1745,,,,,327.1203943,4.84890077,Yes,no,iglu#2--30.949,NA,Cluster_2005,1_layer_gnps,simil:0.9769; mzdiff:NA; homol mz:NA; homol RT:NA,NA,30.94919470000002,6
+Cluster_1817,,,,,336.2315647,14.59867746,Yes,no,iglu#8--103.88,NA,Cluster_2523,1_layer_gnps,simil:0.8492; mzdiff:NA; homol mz:NA; homol RT:NA,NA,103.88030080000004,1
+Cluster_1840,,,,,341.0637332,4.9143685,Yes,no,angl#2--36.995,NA,Cluster_2143,1_layer_gnps,simil:0.948; mzdiff:NA; homol mz:NA; homol RT:NA,NA,36.994709899999975,1
+Cluster_1856,,,,,343.0797815,5.347521333,Yes,no,angl#2--34.979,NA,Cluster_2143,1_layer_gnps,simil:0.9195; mzdiff:NA; homol mz:NA; homol RT:NA,NA,34.97866159999995,2
+Cluster_1881,,,,,346.0560013,0.761131415,Yes,no,iglu#8--94.056,NA,Cluster_2523,1_layer_gnps,simil:0.8861; mzdiff:NA; homol mz:NA; homol RT:NA,NA,94.05586420000003,1
+Cluster_1882,,,,,346.0560347,1.027454169,Yes,no,iglu#8--94.056,NA,Cluster_2523,1_layer_gnps,simil:0.8814; mzdiff:NA; homol mz:NA; homol RT:NA,NA,94.05583080000002,1
+Cluster_1978,,,,,355.1158213,5.827791801,Yes,no,iglu#2--2.954,NA,Cluster_2005,1_layer_gnps,simil:0.9339; mzdiff:NA; homol mz:NA; homol RT:NA,NA,2.9537677000000144,4
+Cluster_2003,,,,,358.0699672,8.530993626,Yes,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.96776420000003,4
+Cluster_2004,,,,,358.0700326,10.44759631,Yes,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.96782960000002,2
+Cluster_2005,iglu#2,C14H18NO8P,,sirius + RT publication,358.069589,6.096384074,Yes,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.96738600000003,4
+Cluster_2006,,,,,358.0701988,9.955633333,Yes,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.96799580000004,2
+Cluster_2007,,,,,358.0700558,10.45448333,No,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.9678528,2
+Cluster_2009,,,,,358.2224234,9.981699369,Yes,no,iglu#8--81.889,NA,Cluster_2523,1_layer_gnps,simil:0.965; mzdiff:NA; homol mz:NA; homol RT:NA,NA,81.8894421,2
+Cluster_2010,,,,,358.2235439,10.11524153,Yes,no,iglu#8--81.888,NA,Cluster_2523,1_layer_gnps,simil:0.8153; mzdiff:NA; homol mz:NA; homol RT:NA,NA,81.88832160000004,1
+Cluster_2036,,,,,361.1875447,10.06735661,Yes,no,iglu#1+-83.085,NA,Cluster_1277,1_layer_gnps,simil:0.8053; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-83.08534170000001,2
+Cluster_2047,,,,,363.0480708,5.606473839,Yes,no,angl#2--14.968,NA,Cluster_2143,1_layer_gnps,simil:0.9113; mzdiff:NA; homol mz:NA; homol RT:NA,NA,15.010372299999972,3
+Cluster_2067,,,,,366.2404952,14.06602882,Yes,no,iglu#8--73.87,NA,Cluster_2522,1_layer_gnps,simil:0.9431; mzdiff:NA; homol mz:NA; homol RT:NA,NA,73.86979810000003,1
+Cluster_2106,,,,,372.0843758,6.593887399,Yes,no,iglu#2+CH2,C15H20NO8P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.014786799999968,1
+Cluster_2143,angl#2,C13H18NO10P,[M-H]-,MS2 match ,378.0584431,4.902723209,Yes,no,iglu#8--62.053,NA,Cluster_2523,1_layer_gnps,simil:0.8213; mzdiff:NA; homol mz:NA; homol RT:NA,NA,62.053422400000045,5
+Cluster_2174,,,,,381.1321299,9.381437939,Yes,no,iglu#8--58.98,NA,Cluster_2523,1_layer_gnps,simil:0.9743; mzdiff:NA; homol mz:NA; homol RT:NA,NA,58.979735600000026,2
+Cluster_2176,,,,,381.1321299,9.381437939,Yes,no,iglu#8--58.98,NA,Cluster_2523,1_layer_gnps,simil:0.8851; mzdiff:NA; homol mz:NA; homol RT:NA,NA,58.979735600000026,2
+Cluster_2178,,,,,381.1315583,7.20738598,Yes,no,iglu#2+-23.062,NA,Cluster_2005,1_layer_gnps,simil:0.9219; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-23.061969299999987,4
+Cluster_2188,,,,,383.1475951,7.496242778,Yes,no,iglu#2+-25.078,NA,Cluster_2005,1_layer_gnps,simil:0.9789; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-25.078006099999982,3
+Cluster_2270,,,,,393.0921235,4.938853365,Yes,no,iglu#8--47.02,NA,Cluster_2523,1_layer_gnps,simil:0.8611; mzdiff:NA; homol mz:NA; homol RT:NA,NA,47.01974200000001,1
+Cluster_2279,,,,,395.1464629,8.681826118,Yes,no,iglu#2+-37.077,NA,Cluster_2005,1_layer_gnps,simil:0.9684; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-37.07687390000001,6
+Cluster_2280,,,,,395.0740031,5.800962435,Yes,no,iglu#2+-37.004,NA,Cluster_2005,1_layer_gnps,simil:0.8463; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-37.00441410000002,2
+Cluster_2298,,,,,398.1243121,11.29050485,Yes,no,iglu#1+C7H4O2,C21H21NO7,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.02210910000002,2
+Cluster_2299,,,,,398.1239869,9.688968674,Yes,no,iglu#1+C7H4O2,C21H21NO7,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.0217839,2
+Cluster_2316,,,,,403.1140189,9.38145848,Yes,no,iglu#8--36.998,NA,Cluster_2523,1_layer_gnps,simil:0.8632; mzdiff:NA; homol mz:NA; homol RT:NA,NA,36.9978466,1
+Cluster_2347,,,,,409.080139,6.792342494,Yes,no,angl#2+-31.022,NA,Cluster_2143,1_layer_gnps,simil:0.8391; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-31.021695899999997,1
+Cluster_2364,,,,,411.1781357,9.112078842,Yes,no,iglu#2+-53.109,NA,Cluster_2005,1_layer_gnps,simil:0.975; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-53.10854669999998,3
+Cluster_2378,,,,,414.0944845,9.360906448,Yes,no,iglu#4--63.011,NA,Cluster_2815,1_layer_gnps,simil:0.8514; mzdiff:NA; homol mz:NA; homol RT:NA,NA,63.01133799999997,1
+Cluster_2385,,,,,415.1881892,11.44784177,Yes,no,iglu#121--46.908,NA,Cluster_2693,1_layer_gnps,simil:0.8393; mzdiff:NA; homol mz:NA; homol RT:NA,NA,46.90803629999999,2
+Cluster_2402,,,,,421.1400026,10.75491937,No,no,iglu#1+C9H5NO,C23H22N2O6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr -> icas (+C9H5NO); homol mz:NA; homol RT:NA,NA,-143.03779960000003,2
+Cluster_2403,,,,,421.136502,9.762657783,Yes,no,iglu#1+C9H5NO,C23H22N2O6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr -> icas (+C9H5NO); homol mz:NA; homol RT:NA,NA,-143.03429900000003,1
+Cluster_2404,,,,,421.1400026,10.75491937,No,no,iglu#1+C9H5NO,C23H22N2O6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr -> icas (+C9H5NO); homol mz:NA; homol RT:NA,NA,-143.03779960000003,2
+Cluster_2419,,,,,423.1056318,9.542669419,Yes,no,iglu#2+-65.036,NA,Cluster_2005,1_layer_gnps,simil:0.9447; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-65.03604280000002,8
+Cluster_2436,,,,,425.2416481,8.498925907,Yes,no,iglu#801--14.053,NA,Cluster_2524,1_layer_gnps,simil:0.8474; mzdiff:NA; homol mz:NA; homol RT:NA,NA,14.868675199999984,2
+Cluster_2488,,,,,434.0843663,8.722044534,Yes,no,iglu#2+-76.015,NA,Cluster_2005,1_layer_gnps,simil:0.9067; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-76.01477729999999,8
+Cluster_2518,,,,,438.2623933,15.8322861,Yes,yes,iglu#8--1.849,NA,Cluster_2523,1_layer_gnps,simil:0.8017; mzdiff:NA; homol mz:NA; homol RT:NA,NA,1.8494722000000365,1
+Cluster_2522,iglu#8,C19H24NO9P,[M-H]-,MS2 match ,440.1102933,10.53705793,Yes,no,iglu#2+C5H6O,C19H24NO9P,Cluster_2005,2_layers_gnps_mass,simil:0.9858; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04070430000002,8
+Cluster_2523,iglu#8,C19H24NO9P,[M-H]-,MS2 match ,440.1118655,11.97250174,Yes,no,iglu#2+C5H6O,C19H24NO9P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04227650000001,8
+Cluster_2524,iglu#801,C19H24NO9P,[M-H]-,MS2 match ,440.1103233,9.477736079,Yes,no,iglu#2+C5H6O,C19H24NO9P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.0407343,8
+Cluster_2525,,,,,440.1557453,5.784885442,Yes,no,iglu#1+C6H10O5,C20H27NO10,Cluster_1278,2_layers_gnps_mass,simil:0.8174; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.05207579999995,2
+Cluster_2526,,,,,440.1556377,6.605991153,Yes,no,iglu#1+C6H10O5,C20H27NO10,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.05343470000003,2
+Cluster_2535,,,,,442.1261974,10.90727137,Yes,no,iglu#8+H2,C19H26NO9P,Cluster_2522,2_layers_gnps_mass,simil:0.9419; mzdiff:Hydrogenation (+H2); homol mz:NA; homol RT:NA,NA,-2.0159041,6
+Cluster_2537,,,,,443.1079367,1.892602155,Yes,no,iglu#8+-2.998,NA,Cluster_2522,1_layer_gnps,simil:0.8076; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-2.9976433999999585,2
+Cluster_2552,,,,,445.0640435,7.905322139,Yes,no,angl#2+-67.006,NA,Cluster_2143,1_layer_gnps,simil:0.8545; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-67.00560040000005,3
+Cluster_2557,,,,,446.0458642,4.901664002,Yes,no,angl#2+-67.987,NA,Cluster_2143,1_layer_gnps,simil:0.8961; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-67.9874211,1
+Cluster_2580,,,,,448.2476974,14.67918593,Yes,yes,iglu#8+-8.136,NA,Cluster_2523,1_layer_gnps,simil:0.8061; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-8.135831899999971,1
+Cluster_2584,,,,,450.1020426,4.660453407,Yes,no,angl#2+-72.044,NA,Cluster_2143,1_layer_gnps,simil:0.9285; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-72.04359950000003,1
+Cluster_2598,iglu#10,C19H21N2O9P,[M-H]-,MS2 match ,451.0900923,9.634874663,Yes,no,iglu#2+-93.021,NA,Cluster_2005,1_layer_gnps,simil:0.9325; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-93.02050329999997,5
+Cluster_2602,,,,,451.1361683,10.42399337,Yes,no,angl#2+-73.078,NA,Cluster_2143,1_layer_gnps,simil:0.9387; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-73.07772520000003,1
+Cluster_2651,,,,,455.2041399,8.864785551,Yes,no,iglu#8+-15.141,NA,Cluster_2522,1_layer_gnps,simil:0.96; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-15.09384659999995,5
+Cluster_2681,,,,,460.1001399,9.401318583,Yes,no,angl#2+C5H6O,C18H24NO11P,Cluster_2143,2_layers_gnps_mass,simil:0.8823; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04169680000001,8
+Cluster_2683,,,,,460.1362851,6.571248695,Yes,no,iglu#4--16.97,NA,Cluster_2815,1_layer_gnps,simil:0.8827; mzdiff:NA; homol mz:NA; homol RT:NA,NA,16.96953739999998,1
+Cluster_2692,,,,,462.0962533,12.24316473,Yes,no,iglu#8+-21.984,NA,Cluster_2523,1_layer_gnps,simil:0.9844; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-21.98438779999998,6
+Cluster_2693,iglu#121,C21H22NO9P,[M-H]-,MS2 match ,462.0962255,11.31045893,Yes,no,iglu#8+-21.986,NA,Cluster_2522,1_layer_gnps,simil:0.8634; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-21.98593219999998,7
+Cluster_2694,,,,,462.0943023,10.85630456,Yes,no,iglu#2+-104.025,NA,Cluster_2005,1_layer_gnps,simil:0.9755; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.02471329999997,10
+Cluster_2747,,,,,468.1463842,5.832532562,Yes,no,iglu#8+C2H4,C21H28NO9P,Cluster_2523,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.03451869999998,1
+Cluster_2792,,,,,474.2636449,15.61305005,Yes,yes,iglu#8+-34.152,NA,Cluster_2523,1_layer_gnps,simil:0.8001; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-34.15177939999995,1
+Cluster_2796,,,,,476.1101657,11.08221064,Yes,no,iglu#121+CH2,C22H24NO9P,Cluster_2693,2_layers_gnps_mass,simil:0.9469; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.013940199999979,11
+Cluster_2797,,,,,476.1119505,12.44732752,Yes,no,iglu#121+CH2,C22H24NO9P,Cluster_2693,2_layers_gnps_mass,simil:0.8453; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.015724999999975,6
+Cluster_2798,,,,,476.110183,10.29686991,Yes,no,iglu#121+CH2,C22H24NO9P,Cluster_2693,2_layers_gnps_mass,simil:0.8784; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.013957500000004,12
+Cluster_2799,,,,,476.1119505,12.44732752,No,no,iglu#121+CH2,C22H24NO9P,Cluster_2693,1_layer_mass,simil:NA; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.015724999999975,1
+Cluster_2814,,,,,477.1057746,10.35453423,Yes,no,iglu#10+C2H2,C21H23N2O9P,Cluster_2598,2_layers_gnps_mass,simil:0.9774; mzdiff:C2H2; homol mz:NA; homol RT:NA,NA,-26.015682300000037,9
+Cluster_2815,iglu#4,C21H23N2O9P,,sirius + RT publication + ms2,477.1058225,9.387744937,Yes,no,iglu#10+C2H2,C21H23N2O9P,Cluster_2598,2_layers_gnps_mass,simil:0.8865; mzdiff:C2H2; homol mz:NA; homol RT:NA,NA,-26.015730200000007,12
+Cluster_2816,,,,,477.1157362,9.737558361,Yes,no,angl#2+-99.057,NA,Cluster_2143,1_layer_gnps,simil:0.8384; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-99.05729310000004,7
+Cluster_2817,,,,,477.1076626,11.85422836,Yes,no,iglu#10+C2H2,C21H23N2O9P,Cluster_2598,2_layers_gnps_mass,simil:0.944; mzdiff:C2H2; homol mz:NA; homol RT:NA,NA,-26.017570300000045,12
+Cluster_2825,,,,,478.089869,8.688075014,Yes,no,iglu#2+C7H4O2,C21H22NO10P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.02028000000001,2
+Cluster_2826,,,,,478.0898645,9.204373444,Yes,no,iglu#2+C7H4O2,C21H22NO10P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.02027549999997,3
+Cluster_2827,,,,,478.0915777,10.92613395,Yes,no,iglu#121+O,C21H22NO10P,Cluster_2693,2_layers_gnps_mass,simil:0.8434; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.995352200000013,7
+Cluster_2875,,,,,482.0841983,8.753477962,Yes,no,angl#2+-104.026,NA,Cluster_2143,1_layer_gnps,simil:0.8018; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.02575520000005,2
+Cluster_2876,,,,,482.0861802,10.54262004,Yes,no,angl#2+-104.028,NA,Cluster_2143,1_layer_gnps,simil:0.8289; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.02773710000002,3
+Cluster_2885,,,,,483.0799293,7.15321763,Yes,no,angl#2+-105.021,NA,Cluster_2143,1_layer_gnps,simil:0.8571; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-105.02148620000003,5
+Cluster_2898,,,,,484.1363504,10.15033781,Yes,no,iglu#8+C2H4O,C21H28NO10P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:C2H4O; homol mz:NA; homol RT:NA,NA,-44.0260571,3
+Cluster_2899,,,,,484.1362522,10.25649681,No,no,iglu#8+C2H4O,C21H28NO10P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:C2H4O; homol mz:NA; homol RT:NA,NA,-44.02595889999998,3
+Cluster_2907,,,,,487.1576894,5.52979457,Yes,no,iglu#4+-10.052,NA,Cluster_2815,1_layer_gnps,simil:0.8449; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-10.051866899999993,1
+Cluster_2910,,,,,488.117641,6.241777553,Yes,no,iglu#8+-48.006,NA,Cluster_2523,1_layer_gnps,simil:0.9661; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-48.00577549999997,1
+Cluster_2915,,,,,490.1156396,9.245583446,Yes,no,angl#2+-112.057,NA,Cluster_2143,1_layer_gnps,simil:0.8616; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-112.05719650000003,4
+Cluster_2917,,,,,490.1239842,4.273032426,Yes,no,iglu#121+C2H4,C23H26NO9P,Cluster_2693,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.027758699999993,1
+Cluster_2925,,,,,491.1180928,10.38032813,Yes,no,iglu#4+CH2,C22H25N2O9P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:Methylation (+CH2); homol mz:NA; homol RT:NA,NA,-14.012270300000012,2
+Cluster_2949,,,,,493.1002073,9.082124336,No,no,iglu#4+O,C21H23N2O10P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.994384800000034,1
+Cluster_2950,,,,,493.1002073,9.082124336,No,no,iglu#4+O,C21H23N2O10P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.994384800000034,1
+Cluster_2968,,,,,496.0999758,9.982880952,Yes,no,angl#2+-118.042,NA,Cluster_2143,1_layer_gnps,simil:0.8971; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-118.0415327,5
+Cluster_2972,angl#4,C20H23N2O11P,,sirius + RT publication  + ms2,497.0955784,9.305338672,Yes,no,angl#2+-119.037,NA,Cluster_2143,1_layer_gnps,simil:0.873; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-119.03713530000005,6
+Cluster_2984,,,,,498.1520901,11.14351083,Yes,no,iglu#8+C3H6O,C22H30NO10P,Cluster_2522,2_layers_gnps_mass,simil:0.9798; mzdiff:C3H6O; homol mz:NA; homol RT:NA,NA,-58.041796799999986,7
+Cluster_2994,,,,,498.2635684,15.54338442,Yes,no,iglu#8+-58.152,NA,Cluster_2523,1_layer_gnps,simil:0.8032; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-58.151702899999975,1
+Cluster_2996,,,,,499.1103971,4.394134107,Yes,no,angl#4+H2,C20H25N2O11P,Cluster_2972,1_layer_mass,simil:NA; mzdiff:Hydrogenation (+H2); homol mz:NA; homol RT:NA,NA,-2.014818699999978,1
+Cluster_3000,,,,,500.0943804,7.669998608,Yes,no,iglu#2+-142.025,NA,Cluster_2005,1_layer_gnps,simil:0.8825; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-142.02479139999997,3
+Cluster_3009,,,,,501.1056261,10.21025935,No,no,iglu#2+C9H5NO,C23H23N2O9P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> icas (+C9H5NO); homol mz:NA; homol RT:NA,NA,-143.0360371,1
+Cluster_3012,,,,,501.1056261,10.2127,No,no,iglu#2+C9H5NO,C23H23N2O9P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr -> icas (+C9H5NO); homol mz:NA; homol RT:NA,NA,-143.0360371,1
+Cluster_3036,,,,,505.1462359,11.46225876,Yes,no,angl#4+-8.051,NA,Cluster_2972,1_layer_gnps,simil:0.8907; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-8.0506575,2
+Cluster_3115,,,,,514.1103213,9.569154901,Yes,no,iglu#2+-156.041,NA,Cluster_2005,1_layer_gnps,simil:0.8743; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-156.0407323,4
+Cluster_3126,,,,,515.1519003,5.524364481,Yes,no,angl#2+-137.093,NA,Cluster_2143,1_layer_gnps,simil:0.9399; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-137.0934572,3
+Cluster_3146,,,,,520.1204155,5.956653181,Yes,no,iglu#2+C6H10O5,C20H28NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.05082650000003,3
+Cluster_3186,,,,,522.1520608,12.47412463,Yes,no,iglu#801+C5H6O,C24H30NO10P,Cluster_2524,2_layers_gnps_mass,simil:0.9491; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04173749999995,3
+Cluster_3207,,,,,525.0795646,9.661912854,Yes,no,angl#2+-147.021,NA,Cluster_2143,1_layer_gnps,simil:0.8836; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-147.02112150000005,1
+Cluster_3225,,,,,528.086439,9.402797073,Yes,no,angl#4+-30.991,NA,Cluster_2972,1_layer_gnps,simil:0.8729; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-30.99086060000002,2
+Cluster_3277,,,,,533.1316584,11.8855097,Yes,no,iglu#10+C5H6O,C24H27N2O10P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04156610000001,1
+Cluster_3278,,,,,533.177784,13.15680994,Yes,no,angl#4+-36.082,NA,Cluster_2972,1_layer_gnps,simil:0.878; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-36.08220559999995,2
+Cluster_3279,,,,,534.1722775,6.352859354,Yes,no,angl#2+-156.114,NA,Cluster_2143,1_layer_gnps,simil:0.8293; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-156.11383439999997,2
+Cluster_3280,,,,,534.1755779,8.795852759,Yes,no,iglu#8+-94.065,NA,Cluster_2522,1_layer_gnps,simil:0.9689; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-94.06528459999998,3
+Cluster_3293,,,,,536.2482072,9.97769737,Yes,no,iglu#1+C13H22O5,C27H39NO10,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14600420000005,2
+Cluster_3294,,,,,536.2504532,16.09494974,No,no,iglu#1+C13H22O5,C27H39NO10,Cluster_1277,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14825020000006,2
+Cluster_3306,,,,,539.1278436,5.548127132,Yes,no,iglu#2+-181.058,NA,Cluster_2005,1_layer_gnps,simil:0.8751; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-181.0582546,2
+Cluster_3309,,,,,540.2005053,12.6183676,Yes,no,iglu#8+-100.09,NA,Cluster_2522,1_layer_gnps,simil:0.9525; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-100.09021200000001,3
+Cluster_3310,,,,,540.1983274,11.29286616,Yes,no,iglu#8+-100.088,NA,Cluster_2522,1_layer_gnps,simil:0.9856; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-100.08803410000002,4
+Cluster_3324,,,,,542.1417544,11.25646062,Yes,no,iglu#8+-102.031,NA,Cluster_2522,1_layer_gnps,simil:0.8696; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-102.03146109999994,4
+Cluster_3338,,,,,543.1823428,7.048526938,Yes,no,angl#2+-165.124,NA,Cluster_2143,1_layer_gnps,simil:0.9301; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-165.12389970000004,1
+Cluster_3341,,,,,544.0981159,12.44600012,Yes,no,iglu#10+-93.008,NA,Cluster_2598,1_layer_gnps,simil:0.8034; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-93.00802360000006,1
+Cluster_3342,,,,,544.1358657,12.66454375,Yes,no,iglu#121+C5H6O,C26H28NO10P,Cluster_2693,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.03964019999995,1
+Cluster_3353,,,,,545.0921306,9.387782863,Yes,no,iglu#801+-104.982,NA,Cluster_2524,1_layer_gnps,simil:0.8633; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.98180730000001,2
+Cluster_3354,,,,,545.0943735,11.8548308,Yes,no,iglu#2+-187.025,NA,Cluster_2005,1_layer_gnps,simil:0.8048; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-187.02478449999995,3
+Cluster_3356,,,,,545.1316052,10.62046844,Yes,no,iglu#6+C5H6O,C25H27N2O10P,Cluster_5334,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04142959999996,3
+Cluster_3358,,,,,545.0944227,11.03784726,Yes,no,iglu#801+-104.984,NA,Cluster_2524,1_layer_gnps,simil:0.8048; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.98409939999999,4
+Cluster_3381,,,,,552.1480191,7.647778546,Yes,no,angl#2+-174.09,NA,Cluster_2143,1_layer_gnps,simil:0.8852; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-174.08957600000008,1
+Cluster_3391,,,,,553.1564969,7.353308592,Yes,no,angl#4+C4H8,C24H31N2O11P,Cluster_2972,1_layer_mass,simil:NA; mzdiff:C4H8; homol mz:NA; homol RT:NA,NA,-56.06091849999996,1
+Cluster_3404,,,,,556.112104,10.05010104,Yes,no,iglu#10+-105.022,NA,Cluster_2598,1_layer_gnps,simil:0.9371; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-105.02201170000006,1
+Cluster_3405,,,,,556.1122279,10.30761802,Yes,no,iglu#10+-105.022,NA,Cluster_2598,1_layer_gnps,simil:0.863; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-105.02213560000001,1
+Cluster_3406,,,,,556.1584452,11.32323455,Yes,no,angl#4+-59.063,NA,Cluster_2972,1_layer_gnps,simil:0.9021; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-59.06286679999994,1
+Cluster_3411,,,,,557.2138015,6.527036062,Yes,no,iglu#1+-279.112,NA,Cluster_1277,1_layer_gnps,simil:0.8927; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-279.11159850000007,2
+Cluster_3414,,,,,559.1482405,12.37495757,Yes,no,iglu#4+C5H6O,C26H29N2O10P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04241800000005,2
+Cluster_3424,,,,,562.1695381,7.397215371,Yes,no,iglu#4+-85.064,NA,Cluster_2815,1_layer_gnps,simil:0.8207; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-85.06371559999997,2
+Cluster_3434,,,,,565.1222274,9.410226361,Yes,no,angl#4+-68.027,NA,Cluster_2972,1_layer_gnps,simil:0.8119; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-68.02664900000002,2
+Cluster_3454,,,,,567.1179443,12.25385767,Yes,no,iglu#121+-105.022,NA,Cluster_2693,1_layer_gnps,simil:0.8442; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-105.02171879999997,1
+Cluster_3465,,,,,570.1277574,11.57505944,Yes,no,iglu#10+-119.038,NA,Cluster_2598,1_layer_gnps,simil:0.8322; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-119.03766509999997,3
+Cluster_3494,,,,,576.2205015,7.632627203,Yes,no,angl#4+-79.125,NA,Cluster_2972,1_layer_gnps,simil:0.9281; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-79.12492309999993,1
+Cluster_3525,,,,,579.1379674,11.15648596,Yes,no,angl#4+C5H6O,C25H29N2O12P,Cluster_2972,2_layers_gnps_mass,simil:0.824; mzdiff:ascr -> mbas (+C5H6O); homol mz:NA; homol RT:NA,NA,-82.04238899999996,2
+Cluster_3526,tyglu#8,C26H33N2O11P,[M-H]-,ms2 match,579.1740374,7.662858933,Yes,no,angl#2+-201.116,NA,Cluster_2143,1_layer_gnps,simil:0.8672; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-201.1155943,6
+Cluster_3547,tyglu#14,C26H35N2O11P,[M-H]-,ms2 match,581.1899941,7.913384822,Yes,no,tyglu#8+H2,C26H35N2O11P,Cluster_3526,2_layers_gnps_mass,simil:0.93; mzdiff:Hydrogenation (+H2); homol mz:NA; homol RT:NA,NA,-2.0159567000000607,1
+Cluster_3550,,,,,582.1276767,10.56157963,Yes,no,angl#2+-204.069,NA,Cluster_2143,1_layer_gnps,simil:0.8019; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-204.06923360000008,6
+Cluster_3551,,,,,582.1276719,10.78216782,Yes,no,iglu#4+-105.022,NA,Cluster_2815,1_layer_gnps,simil:0.8912; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-105.02184940000001,3
+Cluster_3552,,,,,582.1284117,12.00821925,Yes,no,angl#2+-204.07,NA,Cluster_2143,1_layer_gnps,simil:0.8342; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-204.06996860000004,7
+Cluster_3560,,,,,583.1116933,9.97875451,No,no,iglu#6+C7H4O2,C27H25N2O11P,Cluster_5334,1_layer_mass,simil:NA; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.02151769999995,2
+Cluster_3569,,,,,586.2778913,13.99838364,Yes,no,iglu#8+-146.166,NA,Cluster_2523,1_layer_gnps,simil:0.8265; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-146.16602579999994,1
+Cluster_3603,,,,,590.1537391,7.132811381,Yes,no,angl#2+-212.095,NA,Cluster_2143,1_layer_gnps,simil:0.812; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-212.09529600000008,5
+Cluster_3624,,,,,595.1716784,6.898409694,Yes,no,tyglu#8+O,C26H33N2O12P,Cluster_3526,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.997641000000044,1
+Cluster_3625,,,,,596.1435454,12.21547134,Yes,no,iglu#4+-119.038,NA,Cluster_2815,1_layer_gnps,simil:0.884; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-119.0377229,4
+Cluster_3627,,,,,597.1264251,11.12480908,Yes,no,iglu#4+C7H4O2,C28H27N2O11P,Cluster_2815,2_layers_gnps_mass,simil:0.8734; mzdiff:ascr -> hbas (+C7H4O2); homol mz:NA; homol RT:NA,NA,-120.02060260000002,4
+Cluster_3653,,,,,601.1581282,7.958703188,Yes,no,angl#2+-223.1,NA,Cluster_2143,1_layer_gnps,simil:0.8331; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-223.0996851,6
+Cluster_3654,,,,,601.1598899,9.888524425,Yes,no,angl#2+-223.101,NA,Cluster_2143,1_layer_gnps,simil:0.8678; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-223.10144680000008,9
+Cluster_3660,,,,,602.1604162,6.499110938,Yes,no,iglu#8+C6H10O5,C25H34NO14P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.05012289999996,3
+Cluster_3662,,,,,602.1623021,8.795769812,No,no,iglu#8+C6H10O5,C25H34NO14P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.0520088,3
+Cluster_3663,,,,,602.1623021,8.795769812,No,no,iglu#8+C6H10O5,C25H34NO14P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.0520088,3
+Cluster_3686,,,,,607.1683575,7.302111519,Yes,no,tyglu#8+CO,C27H33N2O12P,Cluster_3526,2_layers_gnps_mass,simil:0.9325; mzdiff:Formylation (+CO); homol mz:NA; homol RT:NA,NA,-27.99432009999998,1
+Cluster_3721,,,,,615.1758246,8.568646389,Yes,no,tyglu#8+-36.002,NA,Cluster_3526,1_layer_gnps,simil:0.9459; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-36.00178720000008,2
+Cluster_3723,,,,,616.1341278,11.08057551,Yes,no,angl#4+-119.039,NA,Cluster_2972,1_layer_gnps,simil:0.8115; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-119.03854939999997,3
+Cluster_3724,tyglu#4,C28H32N3O11P,[M-H]-,ms2 match,616.1704622,7.646532408,Yes,no,angl#2+-238.112,NA,Cluster_2143,1_layer_gnps,simil:0.825; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-238.1120191,4
+Cluster_3725,,,,,616.2155935,8.223444631,Yes,no,iglu#2+C13H22O5,C27H40NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14600449999995,1
+Cluster_3726,,,,,616.2165088,8.847596769,Yes,no,iglu#2+C13H22O5,C27H40NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14691980000003,5
+Cluster_3727,,,,,616.2176527,9.567159956,No,yes,iglu#2+C13H22O5,C27H40NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1480637,1
+Cluster_3728,,,,,616.2165082,10.57096236,Yes,no,iglu#2+C13H22O5,C27H40NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1469192,6
+Cluster_3729,,,,,616.2176527,9.567159956,No,yes,iglu#2+C13H22O5,C27H40NO13P,Cluster_2005,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1480637,1
+Cluster_3733,,,,,617.1544168,7.063894744,Yes,no,angl#2+-239.096,NA,Cluster_2143,1_layer_gnps,simil:0.8195; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-239.09597370000006,7
+Cluster_3735,,,,,617.1543819,9.31334888,Yes,no,angl#2+-239.096,NA,Cluster_2143,1_layer_gnps,simil:0.8514; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-239.0959388,8
+Cluster_3743,,,,,618.1500025,5.713259609,Yes,no,angl#2+-240.092,NA,Cluster_2143,1_layer_gnps,simil:0.8124; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-240.09155940000005,5
+Cluster_3778,,,,,624.1496698,10.40830879,Yes,no,iglu#121+C6H10O5,C27H32NO14P,Cluster_2693,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.05344429999997,1
+Cluster_3783,,,,,625.1443623,8.059618752,Yes,no,iglu#6+C6H10O5,C26H31N2O14P,Cluster_5334,1_layer_mass,simil:NA; mzdiff:Hexose (C6H10O5); homol mz:NA; homol RT:NA,NA,-162.0541867,2
+Cluster_3811,,,,,632.1658531,6.835254808,Yes,no,tyglu#4+O,C28H32N3O12P,Cluster_3724,2_layers_gnps_mass,simil:0.9539; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.995390900000075,5
+Cluster_3818,,,,,634.227632,6.517473678,Yes,no,angl#2+-256.169,NA,Cluster_2143,1_layer_gnps,simil:0.8359; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-256.1691889,3
+Cluster_3819,,,,,634.1916296,8.530250443,Yes,no,angl#2+-256.133,NA,Cluster_2143,1_layer_gnps,simil:0.8726; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-256.1331865000001,3
+Cluster_3836,,,,,636.2064092,7.965506988,Yes,no,angl#2+C13H22O5,C26H40NO15P,Cluster_2143,2_layers_gnps_mass,simil:0.8356; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1479661000001,3
+Cluster_3837,,,,,636.2063846,9.198166195,Yes,no,angl#2+C13H22O5,C26H40NO15P,Cluster_2143,2_layers_gnps_mass,simil:0.8351; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1479415,3
+Cluster_3845,,,,,637.2176344,8.301444863,Yes,no,tyglu#8+C3H6O,C29H39N2O12P,Cluster_3526,2_layers_gnps_mass,simil:0.9412; mzdiff:C3H6O; homol mz:NA; homol RT:NA,NA,-58.04359699999998,3
+Cluster_3846,,,,,638.2004745,7.886828697,Yes,no,iglu#121+-176.104,NA,Cluster_2693,1_layer_gnps,simil:0.9008; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-176.10424900000004,1
+Cluster_3879,,,,,642.2324059,11.8645337,Yes,no,angl#2+-264.174,NA,Cluster_2143,1_layer_gnps,simil:0.8133; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-264.1739628,9
+Cluster_3890,,,,,644.2479415,10.64069844,Yes,no,iglu#8+-204.138,NA,Cluster_2522,1_layer_gnps,simil:0.9777; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-204.1376482,3
+Cluster_3925,,,,,653.2119018,7.619279868,Yes,no,angl#2+-275.153,NA,Cluster_2143,1_layer_gnps,simil:0.8617; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-275.1534587,5
+Cluster_4015,,,,,678.2543163,7.046996823,Yes,no,angl#2+-300.196,NA,Cluster_2143,1_layer_gnps,simil:0.8473; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-300.19587320000005,1
+Cluster_4021,,,,,680.2704023,7.172366487,Yes,no,iglu#4+-203.165,NA,Cluster_2815,1_layer_gnps,simil:0.8529; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-203.1645798,2
+Cluster_4099,,,,,698.2635824,1.63462321,No,no,iglu#8+C13H22O5,C32H46NO14P,Cluster_2523,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1517169,1
+Cluster_4146,,,,,717.1479328,6.094898774,Yes,no,iglu#801+-277.038,NA,Cluster_2524,1_layer_gnps,simil:0.853; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-277.03760950000003,2
+Cluster_4152,,,,,721.2383891,9.912448202,Yes,no,iglu#6+C13H22O5,C33H43N2O14P,Cluster_5334,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14821349999994,2
+Cluster_4252,,,,,731.2223854,11.23066449,Yes,no,iglu#8+-291.112,NA,Cluster_2522,1_layer_gnps,simil:0.9018; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-291.1120921,2
+Cluster_4258,,,,,735.2541686,11.43182936,Yes,no,iglu#4+C13H22O5,C34H45N2O14P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.14834609999997,1
+Cluster_4372,,,,,753.266393,7.371249272,Yes,no,angl#2+-375.208,NA,Cluster_2143,1_layer_gnps,simil:0.8504; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-375.2079499,3
+Cluster_4378,,,,,757.1284187,4.903318371,Yes,no,angl#2+-379.07,NA,Cluster_2143,1_layer_gnps,simil:0.8389; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-379.0699756,1
+Cluster_4395,,,,,763.2737199,7.2054236,Yes,no,iglu#2+-405.204,NA,Cluster_2005,1_layer_gnps,simil:0.8589; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-405.20413089999994,2
+Cluster_4539,,,,,823.2701806,9.402671667,Yes,no,iglu#8+-383.16,NA,Cluster_2522,1_layer_gnps,simil:0.9571; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-383.1598873,3
+Cluster_4901,,,,,927.1903099,8.328309949,Yes,no,iglu#8+-487.08,NA,Cluster_2522,1_layer_gnps,simil:0.8002; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-487.08001659999996,1
+Cluster_5192,,,,,277.0964533,9.488678845,Yes,no,iglu#1-1.006,NA,Cluster_1277,1_layer_gnps,simil:0.8821; mzdiff:NA; homol mz:NA; homol RT:NA,NA,1.005749699999967,2
+Cluster_5212,,,,,308.1999529,13.20905,Yes,no,iglu#8-131.912,NA,Cluster_2523,1_layer_gnps,simil:0.8377; mzdiff:NA; homol mz:NA; homol RT:NA,NA,131.9119126,1
+Cluster_5257,,,,,358.069875,8.960683333,No,no,iglu#1+HPO3,C14H18NO8P,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Phosphorylation (+HPO3); homol mz:NA; homol RT:NA,NA,-79.96767200000005,2
+Cluster_5259,,,,,358.1141173,9.350728754,Yes,no,iglu#2+-0.045,NA,Cluster_2005,1_layer_gnps,simil:0.9591; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-0.04452829999996766,4
+Cluster_5307,,,,,439.1299663,7.764260308,Yes,no,iglu#8-0.98,NA,Cluster_2522,1_layer_gnps,simil:0.8474; mzdiff:NA; homol mz:NA; homol RT:NA,NA,0.9803270000000452,3
+Cluster_5334,iglu#6,C20H21N2O9P,[M-H]-,MS2 match,463.0901756,8.712779278,Yes,no,iglu#10+C,C20H21N2O9P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.000083300000028,1
+Cluster_5335,,,,,463.0901247,7.012448639,No,no,iglu#10+C,C20H21N2O9P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.00003240000001,1
+Cluster_5336,iglu#601,C20H21N2O9P,[M-H]-,MS2 match,463.091757,9.673256135,Yes,no,iglu#10+C,C20H21N2O9P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.001664699999992,4
+Cluster_5337,,,,,463.0918488,10.54307534,Yes,no,iglu#10+C,C20H21N2O9P,Cluster_2598,2_layers_gnps_mass,simil:0.9165; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.001756499999999,7
+Cluster_5338,,,,,463.0901247,7.012448639,No,no,iglu#10+C,C20H21N2O9P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.00003240000001,1
+Cluster_5339,,,,,463.091757,9.673256135,No,no,iglu#10+C,C20H21N2O9P,Cluster_2598,1_layer_mass,simil:NA; mzdiff:C; homol mz:NA; homol RT:NA,NA,-12.001664699999992,1
+Cluster_5355,,,,,482.084148,9.804959816,Yes,no,angl#2+-104.026,NA,Cluster_2143,1_layer_gnps,simil:0.8563; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.02570490000005,4
+Cluster_5368,,,,,498.1539351,12.50039479,Yes,no,iglu#8+C3H6O,C22H30NO10P,Cluster_2522,2_layers_gnps_mass,simil:0.8531; mzdiff:C3H6O; homol mz:NA; homol RT:NA,NA,-58.04364179999999,4
+Cluster_5390,,,,,530.0817068,10.85654894,Yes,no,iglu#8+-89.97,NA,Cluster_2523,1_layer_gnps,simil:0.9048; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-89.96984129999998,1
+Cluster_5391,,,,,530.0839169,11.31114146,Yes,no,iglu#121+-67.988,NA,Cluster_2693,1_layer_gnps,simil:0.866; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-67.98769139999996,3
+Cluster_5394,,,,,534.175555,8.701473392,Yes,no,iglu#8+-94.064,NA,Cluster_2523,1_layer_gnps,simil:0.9651; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-94.06368950000001,3
+Cluster_5395,,,,,536.2535258,16.19987053,No,no,iglu#1+C13H22O5,C27H39NO10,Cluster_1278,1_layer_mass,simil:NA; mzdiff:ascr#1; homol mz:NA; homol RT:NA,NA,-258.1498563,1
+Cluster_5408,,,,,576.2220315,9.570463404,Yes,no,iglu#8+-136.11,NA,Cluster_2523,1_layer_gnps,simil:0.9662; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-136.11016599999994,3
+Cluster_5460,,,,,662.222015,9.655986464,Yes,no,angl#2+-284.164,NA,Cluster_2143,1_layer_gnps,simil:0.8369; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-284.1635719000001,4
+Cluster_5486,,,,,702.3264236,12.07407299,Yes,no,iglu#8+-262.215,NA,Cluster_2523,1_layer_gnps,simil:0.8856; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-262.2145581,2
+Cluster_5662,,,,,462.8402094,8.328787468,Yes,no,iglu#2+-104.771,NA,Cluster_2005,1_layer_gnps,simil:0.9796; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-104.77062039999998,11
+Cluster_5678,,,,,357.8984858,6.099891465,Yes,no,iglu#2-0.171,NA,Cluster_2005,1_layer_gnps,simil:0.9904; mzdiff:NA; homol mz:NA; homol RT:NA,NA,0.17110320000000456,6
+Cluster_6160,,,,,294.0979386,5.688213557,No,no,iglu#1+O,C14H17NO6,Cluster_1277,1_layer_mass,simil:NA; mzdiff:Hydroxylation (+O); homol mz:NA; homol RT:NA,NA,-15.995735600000046,2
+Cluster_6279,,,,,442.1285132,7.017977194,No,no,iglu#8+H2,C19H26NO9P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Hydrogenation (+H2); homol mz:NA; homol RT:NA,NA,-2.0182198999999628,3
+Cluster_6295,,,,,468.1476085,1.079957506,No,no,iglu#8+C2H4,C21H28NO9P,Cluster_2523,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.035742999999968,1
+Cluster_6296,,,,,468.1437118,7.284200166,Yes,no,iglu#8+C2H4,C21H28NO9P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.033418499999982,3
+Cluster_6297,,,,,468.1437118,7.284200166,No,no,iglu#8+C2H4,C21H28NO9P,Cluster_2522,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.033418499999982,3
+Cluster_6307,,,,,490.1176354,10.90366512,Yes,no,angl#2+-112.059,NA,Cluster_2143,1_layer_gnps,simil:0.8631; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-112.0591923,3
+Cluster_6323,,,,,505.1337551,7.899709546,Yes,no,iglu#4+C2H4,C23H27N2O9P,Cluster_2815,1_layer_mass,simil:NA; mzdiff:Ethylation (+C2H4); homol mz:NA; homol RT:NA,NA,-28.027932599999986,2
+Cluster_6360,,,,,565.083662,9.307179926,Yes,no,iglu#2+-207.014,NA,Cluster_2005,1_layer_gnps,simil:0.8246; mzdiff:NA; homol mz:NA; homol RT:NA,NA,-207.014073,3
+Cluster_6388,,,,,635.2419829,15.6208472,No,no,tyglu#8+C4H8,C30H41N2O11P,Cluster_3526,1_layer_mass,simil:NA; mzdiff:C4H8; homol mz:NA; homol RT:NA,NA,-56.067945500000064,1
